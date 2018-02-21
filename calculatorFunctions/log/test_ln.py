@@ -1,5 +1,5 @@
 import math
-from CalculatorPro import ln
+import ln
 
 #X is Zero
 assert ln.loge(0)==float('-Inf'),"X=0 Fail"
