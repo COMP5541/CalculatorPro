@@ -20,9 +20,8 @@ class calculator:
 
 
     def squareroot(self):
-        """squareroot method"""
         self.value = eval(self.e.get())
-        """ f"""
+
         self.sqrtval = squareroot.squareroot(self.value)
         self.e.delete(0, END)
         self.e.insert(0, self.sqrtval)

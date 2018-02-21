@@ -12,12 +12,10 @@ def power(x,y):
             return x * power(x, y- 1)
 
         # Negative Values
-        elif not y >0:
-            return 1./float(power(x,-y))
+        elif y < 0:
+            return 1/float(power(x,-y))
     else:
         print ('X must be a number and Y must be an integer')
 
 
 
-
-print (power(2.5,11))

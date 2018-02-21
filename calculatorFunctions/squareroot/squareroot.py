@@ -1,23 +1,21 @@
 def squareroot( value):
 
-    if (value == 0 or value == 1):
-        return value
+    error = 0.00000000001
+    squareRootVal = value/2
+    if value == 0:
+        return 0
 
-    # Look for the square root using binary search
-    start = 1
-    end = value
-    while (start <= end):
-        mid = (start + end) // 2
-
-        if (mid * mid == value):
-            return mid
-
-        if (mid * mid < value):
-            start = mid + 1
-            ans = mid
-
-        else:
-            end = mid - 1
+    if value == 1:
+        return 1
 
 
-    return ans
+    while True:
+        dif = squareRootVal**2 - value
+
+        if abs(dif) <= error:
+            break
+
+        squareRootVal = (squareRootVal + value / squareRootVal) / 2.0
+    return squareRootVal
+
+
