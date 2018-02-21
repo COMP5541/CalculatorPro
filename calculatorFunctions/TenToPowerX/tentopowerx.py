@@ -1,9 +1,11 @@
-
-#Title: 10^x
-#Author: Faezeh
-#Date: 18 feb
-#Team A, COMP 5541 Winter 2018, Concordia University
-
+__author__ = "The CalculatorPro Inc."
+__copyright__ = "Copyright 2018, CalculatorPro"
+__credits__ = ["Team A"]
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Faezeh Mobasheri"
+__email__ = "f_mobas@encs.concordia.ca"
+__status__ = "Release v1.0"
 
 import math
 
@@ -61,30 +63,10 @@ def tentopower(x):
     return value
 
 
-#Calculation Test1
-print("\n")
-print("test case 1")
-test1 = 2.2
-print(tentopower(test1))
-print(10**test1)
 
-#Calculation Test2
+#Get value of x from user and return 10^x
 print("\n")
-print("test case 2")
-test2= 6.8
-print(tentopower(test2))
-print(10**test2)
+print("Caculator is on:")
+get_value()
 
-#power function test
-print("\n")
-print("power function test")
-print(power(6, 3))
-print(math.pow(6, 3))
-
-
-#factorial function test
-print("\n")
-print("factorial function test")
-print(factorial(6))
-print(math.factorial(6))
 
