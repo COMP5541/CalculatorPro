@@ -2,6 +2,7 @@ from tkinter import *
 
 from calculatorFunctions.squareroot import squareroot
 
+from calculatorFunctions.log import ln
 
 
 class calculator:
@@ -19,6 +20,8 @@ class calculator:
         self.e.insert(END, argi)
 
 
+    # Functions
+
     def squareroot(self):
         self.value = eval(self.e.get())
 
@@ -26,6 +29,14 @@ class calculator:
         self.e.delete(0, END)
         self.e.insert(0, self.sqrtval)
 
+
+
+    def ln(self):
+        self.value = eval(self.e.get())
+
+        self.sqrtval = ln.loge(self.value)
+        self.e.delete(0, END)
+        self.e.insert(0, self.sqrtval)
 
 
 
@@ -53,6 +64,7 @@ class calculator:
         Button(master, text="1", width=3, command=lambda: self.inputVal(1)).grid(row=3, column=0)
         Button(master, text="0", width=3, command=lambda: self.inputVal(0)).grid(row=4, column=0)
         Button(master, text="√", width=3, command=lambda: self.squareroot()).grid(row=3, column=4)
+        Button(master, text="ln", width=3, command=lambda: self.ln()).grid(row=4, column=4)
 
 
 
