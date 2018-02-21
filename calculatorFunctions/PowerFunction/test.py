@@ -22,7 +22,7 @@ print(10**test1)
 #Calculation Test2
 print("\n")
 print("test case 2")
-test2= -6.8
+test2= -4.2
 print("If x is floating number and negative calculated result is:")
 print(tentopower(test2))
 print("If x is floating number and negative returned result form pyhton is:")
