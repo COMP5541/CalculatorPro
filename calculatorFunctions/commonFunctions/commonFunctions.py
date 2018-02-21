@@ -43,7 +43,7 @@ def factorial(n):
         return n * factorial(n - 1)
 
 
-# Factorial: n!
+# Absolute:|n|
 def my_abs(n):
     if (n==0):
         return 0
