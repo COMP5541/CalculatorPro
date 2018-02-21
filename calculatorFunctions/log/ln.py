@@ -1,13 +1,19 @@
-'''
-Created on Feb 16, 2018
-@author: Gus
-Team A, COMP 5541 Winter 2018, Concordia University
+__author__ = "The CalculatorPro Inc."
+__copyright__ = "Copyright 2018, CalculatorPro"
+__credits__ = ["Team A"]
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Agustin Gimenez Comas"
+__email__ = "a_gimene@encs.concordia.ca"
+__status__ = "Release v1.0" (edited)
 
+'''
 Properties of the natural logarithm
 If x < 1: a useful property is ln(1/x)=-ln(x)
 If x > e: a useful property is ln(x/e) = ln(x)-ln(e) --> ln(x)=ln(x/e)+1
 
 '''
+#Import math until other functions available
 import math
 
 #Define target precision
