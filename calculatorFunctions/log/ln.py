@@ -5,7 +5,7 @@ __license__ = "GPL"
 __version__ = "1.0"
 __maintainer__ = "Agustin Gimenez Comas"
 __email__ = "a_gimene@encs.concordia.ca"
-__status__ = "Release v1.0" (edited)
+__status__ = "Release v1.0"
 
 '''
 Properties of the natural logarithm
