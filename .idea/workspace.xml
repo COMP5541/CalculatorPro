@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx" afterPath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx-test" afterPath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx-test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py" afterPath="$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculatorFunctions/sin/sin.py" afterPath="$PROJECT_DIR$/calculatorFunctions/sin/sin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py" afterPath="$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculatorUI/calculator.py" afterPath="$PROJECT_DIR$/calculatorUI/calculator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -501,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519180716557</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implementation of functions: SquareRoot and Power">
+      <created>1519227466064</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519227466064</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
