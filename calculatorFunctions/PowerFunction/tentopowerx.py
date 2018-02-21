@@ -42,10 +42,10 @@ def tentopower(x):
     val=x
     if type(val)==int:
             if val >= 0 :
-               print(power(10, val))
+               return (power(10, val))
             if val < 0 :
                val *= -1
-            print(1/power(10, val))
+            return (1/power(10, val))
     elif type(val)==float:
         if val>=0:
             value = 0.0000000000000000000001
@@ -56,7 +56,7 @@ def tentopower(x):
                 else:
                   value += 0
                   round(calculate, error_decimal)
-            return print(value)
+            return (value)
         if val<0:
             val *= -1
             value = 0.0000000000000000000001
@@ -67,5 +67,5 @@ def tentopower(x):
                 else:
                   value += 0
                   round(calculate, error_decimal)
-            return print(1/value)
+            return (1/value)
 
