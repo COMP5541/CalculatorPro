@@ -14,7 +14,7 @@ ln10 = math.log(10)
 
 #Define precision decimal
 error=0.000000000001
-error_decimals=10
+error_decimal=10
 
 
 #Calculation of power function
@@ -55,7 +55,7 @@ def tentopower(x):
                   value += calculate
                 else:
                   value += 0
-                  round(calculate, error_decimals)
+                  round(calculate, error_decimal)
             return print(value)
         if val<0:
             val *= -1
@@ -66,6 +66,6 @@ def tentopower(x):
                   value += calculate
                 else:
                   value += 0
-                  round(calculate, error_decimals)
+                  round(calculate, error_decimal)
             return print(1/value)
 

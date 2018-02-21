@@ -32,18 +32,18 @@ print(10**test2)
 print("\n")
 print("test case 3")
 print("If x is an integer and positive number calculated result is:")
-print(tentopower(3))
+print(tentopower(6))
 print("If x is an integer and positive number returned result from Python is:")
-print(math.pow(10, 3))
+print(math.pow(10, 6))
 
 
 #factorial function test
 print("\n")
 print("test case 4")
 print("If x is an integer and negative number calculated result is:")
-print(tentopower(-6))
+print(tentopower(-3))
 print("If x is an integer and positive number returned result from Python is:")
-print(math.pow(10, -6))
+print(math.pow(10, -3))
 
 
 
