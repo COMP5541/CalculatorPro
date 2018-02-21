@@ -1,17 +1,26 @@
+__author__ = "The CalculatorPro Inc."
+__copyright__ = "Copyright 2018, CalculatorPro"
+__credits__ = ["Team A"]
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Beranrdo Sandi"
+__email__ = "B_SANDI@encs.concordia.ca"
+__status__ = "Release v1.0"
+
+
 from tkinter import *
 
 from calculatorFunctions.squareroot import squareroot
-
 from calculatorFunctions.log import ln
 
 
 class calculator:
 
 
-    def clearall(self):
+    def clearAll(self):
         self.e.delete(0, END)
 
-    def clearone(self):
+    def deleteOne(self):
         self.txt = self.e.get()[:-1]
         self.e.delete(0, END)
         self.e.insert(0, self.txt)
@@ -44,15 +53,15 @@ class calculator:
         master.title('CalulatorPro')
         master.geometry()
         self.e = Entry(master)
-        self.e.grid(row=0, column=0, columnspan=6, pady=5)
-        self.e.focus_set()  # Sets focus on the input text area
+        self.e.grid(row=0, column=0, columnspan=6 )
+        self.e.focus_set()
 
 
 
 
         # Creating Buttons
-        Button(master, text='AC', width=3, command=lambda: self.clearall()).grid(row=1, column=4)
-        Button(master, text='C', width=3, command=lambda: self.clearone()).grid(row=2, column=4)
+        Button(master, text='AC', width=3, command=lambda: self.clearAll()).grid(row=1, column=4)
+        Button(master, text='C', width=3, command=lambda: self.deleteOne()).grid(row=2, column=4)
         Button(master, text="9", width=3, command=lambda: self.inputVal(9)).grid(row=1, column=2)
         Button(master, text="8", width=3, command=lambda: self.inputVal(8)).grid(row=1, column=1)
         Button(master, text="7", width=3, command=lambda: self.inputVal(7)).grid(row=1, column=0)

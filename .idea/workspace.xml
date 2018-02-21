@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/ln.py" afterPath="$PROJECT_DIR$/calculatorFunctions/log/ln.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/test_ln.py" afterPath="$PROJECT_DIR$/calculatorFunctions/log/test_ln.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx" afterPath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx-test" afterPath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx-test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py" afterPath="$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculatorFunctions/sin/sin.py" afterPath="$PROJECT_DIR$/calculatorFunctions/sin/sin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py" afterPath="$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculatorUI/calculator.py" afterPath="$PROJECT_DIR$/calculatorUI/calculator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,14 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="calculator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calculator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculatorUI/calculator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            <state relative-caret-position="345">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#255#276#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculatorFunctions/sin/sin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,18 +49,18 @@
       <file leaf-file-name="ln.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculatorFunctions/log/ln.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commonFunctions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py">
+      <file leaf-file-name="tentopowerx.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -56,18 +69,18 @@
       <file leaf-file-name="squareroot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample_function.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculatorFunctions/sample_function.py">
+      <file leaf-file-name="commonFunctions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,16 +116,16 @@
         <option value="$PROJECT_DIR$/presentation_layer/proof_concept.py" />
         <option value="$PROJECT_DIR$/calculatorFunctions/squareroot.py" />
         <option value="$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py" />
+        <option value="$PROJECT_DIR$/calculatorFunctions/sin/sin.py" />
         <option value="$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py" />
         <option value="$PROJECT_DIR$/calculatorUI/calculator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
     <option name="y" value="23" />
-    <option name="width" value="1262" />
-    <option name="height" value="797" />
+    <option name="width" value="1356" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -132,7 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -162,7 +174,19 @@
               <item name="CalculatorPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalculatorPro" type="462c0819:PsiDirectoryNode" />
               <item name="calculatorFunctions" type="462c0819:PsiDirectoryNode" />
+              <item name="sin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorPro" type="462c0819:PsiDirectoryNode" />
+              <item name="calculatorFunctions" type="462c0819:PsiDirectoryNode" />
               <item name="squareroot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorPro" type="462c0819:PsiDirectoryNode" />
+              <item name="calculatorFunctions" type="462c0819:PsiDirectoryNode" />
+              <item name="TenToPowerX" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CalculatorPro" type="b2602c69:ProjectViewProjectNode" />
@@ -177,6 +201,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,6 +221,122 @@
       <recent name="$PROJECT_DIR$/presentation_layer" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calculatorFunctions/log/ln.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calculatorFunctions/log/test_ln.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx-test</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calculatorFunctions/sin/__pycache__/sin.cpython-36.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calculatorFunctions/sin/sin.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/calculatorFunctions/sin/test.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -208,24 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.commonFunctions">
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application Layer/other_functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CalculatorPro" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application Layer/other_functions/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.sin">
     <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,6 +401,23 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="sin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calculatorFunctions/sin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CalculatorPro" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculatorFunctions/sin/sin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="squareroot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -295,19 +436,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
-      <item index="1" class="java.lang.String" itemvalue="Python.proof_concept (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.calculator" />
-      <item index="3" class="java.lang.String" itemvalue="Python.commonFunctions" />
-      <item index="4" class="java.lang.String" itemvalue="Python.squareroot" />
+      <item index="0" class="java.lang.String" itemvalue="Python.proof_concept (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.calculator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.commonFunctions" />
+      <item index="3" class="java.lang.String" itemvalue="Python.squareroot" />
+      <item index="4" class="java.lang.String" itemvalue="Python.sin" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.calculator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.commonFunctions" />
-        <item index="2" class="java.lang.String" itemvalue="Python.squareroot" />
-        <item index="3" class="java.lang.String" itemvalue="Python.proof_concept (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sin" />
+        <item index="1" class="java.lang.String" itemvalue="Python.calculator" />
+        <item index="2" class="java.lang.String" itemvalue="Python.commonFunctions" />
+        <item index="3" class="java.lang.String" itemvalue="Python.squareroot" />
+        <item index="4" class="java.lang.String" itemvalue="Python.proof_concept (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519180164555</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implementation of functions: SquareRoot and Power">
+      <created>1519180716557</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519180716557</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -366,17 +514,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="23" width="1262" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1356" height="812" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19836065" sideWeight="0.4950249" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17732115" sideWeight="0.4950249" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.50591713" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20471281" sideWeight="0.49408284" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20028819" sideWeight="0.49408284" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32708934" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940828" sideWeight="0.50497514" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -385,6 +532,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -426,6 +574,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/calculatorUI/calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#255#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/log/ln.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/sample_function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculatorFunctions/sample_function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -439,7 +629,7 @@
         <state relative-caret-position="645">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#255#276#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -449,7 +639,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#255#276#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -467,7 +657,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#255#276#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -485,7 +675,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#255#276#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -515,15 +705,9 @@
     <entry file="file://$PROJECT_DIR$/data_access_layer/sample_function.py" />
     <entry file="file://$PROJECT_DIR$/application_layer/other_functions/__init__.py" />
     <entry file="file://$PROJECT_DIR$/presentation_layer/calculator.py" />
-    <entry file="file://$PROJECT_DIR$/calculatorFunctions/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculatorFunctions/squareroot/__init__.py">
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/squareroot/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx-test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -539,37 +723,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py">
+    <entry file="file://$PROJECT_DIR$/calculatorUI/calculator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="345">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#255#276#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py">
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculatorFunctions/log/ln.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculatorUI/calculator.py">
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/sin/sin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="56" column="25" lean-forward="true" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

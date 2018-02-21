@@ -73,3 +73,5 @@ if __name__ == "__main__":
     main()
 else:
     pass
+
+print(sin(3,0))
