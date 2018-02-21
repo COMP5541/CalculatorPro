@@ -1,10 +1,6 @@
 from tkinter import *
-from calculatorFunctions import sample_function
 
-import sys
-
-sys.path.insert(0, "/CalculatorPro/calculatorFunctions/other_functions/sample_function")
-
+from calculatorFunctions.squareroot import squareroot
 
 
 
@@ -27,7 +23,7 @@ class calculator:
         """squareroot method"""
         self.value = eval(self.e.get())
         """ f"""
-        self.sqrtval = sample_function.squareroot(self.value)
+        self.sqrtval = squareroot.squareroot(self.value)
         self.e.delete(0, END)
         self.e.insert(0, self.sqrtval)
 
