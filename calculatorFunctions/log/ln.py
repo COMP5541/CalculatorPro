@@ -48,7 +48,7 @@ def loge(x):
     '''
     if(x<1):
         return (-loge(1.0/x))
-    if(x>math.e):
+    if(x>e):
         return (loge(x/e)+1.0)
     
     #Binary Search Approach
