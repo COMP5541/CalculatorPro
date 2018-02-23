@@ -17,5 +17,5 @@ def tentopower(x):
     result=fun_ex(B)
     return result
 
-print(tentopower(24.9))
-print(pow(10, 24.9))
+#print(tentopower(24.9))
+#print(pow(10, 24.9))
