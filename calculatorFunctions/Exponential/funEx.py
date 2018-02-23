@@ -1,7 +1,11 @@
-
-#Created on Feb 18, 2018
-#Function to calculate value  raise to the power x using Taylor Series
-#@author: ratol
+__author__ = "The CalculatorPro Inc."
+__copyright__ = "Copyright 2018, CalculatorPro"
+__credits__ = ["Team A"]
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Jasdeep Ratol"
+__email__ = " j_ratol@encs.concordia.ca"
+__status__ = "Release v1.0"
 
 
 # for positive numbers range is up-to 40
