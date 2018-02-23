@@ -60,6 +60,6 @@ def loge(x):
             return round(mid,error_decimals)
 
 if __name__ == "__main__":            
-    test=-1      
+    test=0 #Enter whatever input you want to test      
     print(loge(test))
     print(math.log(test))   
