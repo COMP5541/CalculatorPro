@@ -13,6 +13,8 @@ If x < 1: a useful property is ln(1/x)=-ln(x)
 If x > e: a useful property is ln(x/e) = ln(x)-ln(e) --> ln(x)=ln(x/e)+1
 
 '''
+from calculatorFunctions.commonFunctions import commonFunctions
+
 #Import math until other functions available
 import math
 
@@ -22,14 +24,6 @@ error_decimals = 10
 
 #Approximation of natural number e
 e = 2.718281828459045 
-
-def my_abs(n):
-    if (n==0):
-        return 0
-    if (n<0):
-        return -n
-    else:
-        return n
 
 def loge(x):
     #Handle exceptional cases
@@ -66,6 +60,6 @@ def loge(x):
             return round(mid,error_decimals)
 
 if __name__ == "__main__":            
-    test=-1      
+    test=0 #Enter whatever input you want to test      
     print(loge(test))
     print(math.log(test))   

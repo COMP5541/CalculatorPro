@@ -3,7 +3,7 @@ __copyright__ = "Copyright 2018, CalculatorPro"
 __credits__ = ["Team A"]
 __license__ = "GPL"
 __version__ = "1.0"
-__maintainer__ = "Beranrdo Sandi"
+__maintainer__ = "Bernardo Sandi"
 __email__ = "B_SANDI@encs.concordia.ca"
 __status__ = "Release v1.0"
 
