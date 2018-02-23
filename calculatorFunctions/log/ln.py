@@ -56,7 +56,7 @@ def loge(x):
             hi=mid
         if(val<x):
             lo=mid
-        if (my_abs(val-x)<error):
+        if (commonFunctions.my_abs(val-x)<error):
             return round(mid,error_decimals)
 
 if __name__ == "__main__":            
