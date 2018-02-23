@@ -28,7 +28,7 @@ print(tentopower(test2))
 print("If x is floating number and negative returned result form pyhton is:")
 print(10**test2)
 
-#power function test
+#Calculation test 3
 print("\n")
 print("test case 3")
 print("If x is an integer and positive number calculated result is:")
@@ -37,13 +37,19 @@ print("If x is an integer and positive number returned result from Python is:")
 print(math.pow(10, 6))
 
 
-#factorial function test
+#Calculation test4
 print("\n")
 print("test case 4")
 print("If x is an integer and negative number calculated result is:")
 print(tentopower(-3))
-print("If x is an integer and positive number returned result from Python is:")
+print("If x is an integer and negative number returned result from Python is:")
 print(math.pow(10, -3))
 
 
-
+#Calculation test 5
+print("\n")
+print("test case 5")
+print("If x is equal to zero, calculated result is:")
+print(tentopower(0))
+print("If x is equal to zero, returned result from Python is:")
+print(math.pow(10, 0))
