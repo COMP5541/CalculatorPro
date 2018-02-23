@@ -16,3 +16,7 @@ def fun_ex(value):
     for i in range(100, 0, -1):
         thesum = 1 + value * thesum / i
     return thesum
+
+
+
+print(fun_ex(12))
