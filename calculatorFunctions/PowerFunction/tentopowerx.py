@@ -8,14 +8,14 @@ __email__ = "f_mobas@encs.concordia.ca"
 __status__ = "Release v1.0"
 
 import math
-#from calculatorFunctions.log.ln import loge
-#from calculatorFunctions.Exponential.funEx import fun_ex
+from calculatorFunctions.log.ln import loge
+from calculatorFunctions.Exponential.funEx import fun_ex
 
 def tentopower(x):
-    A=math.log(10)
+    A=loge(10)
     B=x*A
-    result=math.exp(B)
+    result=fun_ex(B)
     return result
 
-print(tentopower(100.8))
-print(10**100.8)
+print(tentopower(24.9))
+print(pow(10, 24.9))
