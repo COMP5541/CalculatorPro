@@ -9,7 +9,7 @@ CalculatorPro is a simple scientific calculator designed to calculate transcende
 
 Prerequisites
 Download package CalculatorPro from https://github.com/COMP5541/CalculatorPro
-To run, save CalculatorPro folder in your drive and run calculator.py inside CalculatorPro/calculatorUI.
+To run, save CalculatorPro folder in your drive and run calculator.py
 
 
 Requires Python 3.6
