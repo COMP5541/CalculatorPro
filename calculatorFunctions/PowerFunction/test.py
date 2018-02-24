@@ -53,3 +53,4 @@ print("If x is equal to zero, calculated result is:")
 print(tentopower(0))
 print("If x is equal to zero, returned result from Python is:")
 print(math.pow(10, 0))
+
