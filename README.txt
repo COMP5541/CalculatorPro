@@ -12,8 +12,7 @@ Download package CalculatorPro from https://github.com/COMP5541/CalculatorPro
 To run, save CalculatorPro folder in your drive and run calculator.py inside CalculatorPro/calculatorUI.
 
 
-Built With
-Python 3.6
+Requires Python 3.6
 
 
 Versioning
