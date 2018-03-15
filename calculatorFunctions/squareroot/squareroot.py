@@ -7,7 +7,6 @@ __maintainer__ = "Bernardo Sandi"
 __email__ = "B_SANDI@encs.concordia.ca"
 __status__ = "Release v1.0"
 
-from calculatorFunctions.commonFunctions import commonFunctions
 
 def squareroot( value):
 
@@ -21,9 +20,9 @@ def squareroot( value):
 
 
     while True:
-        dif = commonFunctions.power(squareRootVal,2) - value
+        dif = calculatorFunctions.power(squareRootVal, 2) - value
 
-        if commonFunctions.my_abs(dif) <= error:
+        if calculatorFunctions.my_abs(dif) <= error:
             break
 
         squareRootVal = (squareRootVal + value / squareRootVal) / 2.0

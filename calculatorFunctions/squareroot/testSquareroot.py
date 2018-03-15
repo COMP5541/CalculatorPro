@@ -9,8 +9,6 @@ __status__ = "Release v1.0"
 
 from random import random
 from calculatorFunctions.squareroot import squareroot
-from calculatorFunctions.commonFunctions import commonFunctions
-
 
 error = 0.0000000001
 
@@ -19,7 +17,7 @@ def testPositive ():
     n = 0
     for i in range(1000):
         num = random()*100000
-        if commonFunctions.my_abs(squareroot.squareroot(num) * squareroot.squareroot(num) - num)  <= error :
+        if calculatorFunctions.my_abs(squareroot.squareroot(num) * squareroot.squareroot(num) - num)  <= error :
             n += 1
             pass
         else:

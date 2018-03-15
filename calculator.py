@@ -11,10 +11,10 @@ __status__ = "Release v1.0"
 from tkinter import *
 
 from calculatorFunctions.squareroot import squareroot
-from calculatorFunctions.log import ln
 
 from calculatorFunctions.sin import sin
 from calculatorFunctions.Exponential import funEx
+from calculatorFunctions import ln
 from calculatorFunctions.PowerFunction import tentopowerx
 
 class calculator:

@@ -7,8 +7,7 @@ __maintainer__ = "Faezeh Mobasheri"
 __email__ = "f_mobas@encs.concordia.ca"
 __status__ = "Release v1.0"
 
-import math
-from calculatorFunctions.log.ln import loge
+from calculatorFunctions.ln import loge
 from calculatorFunctions.Exponential.funEx import fun_ex
 
 def tentopower(x):
