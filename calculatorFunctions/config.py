@@ -6,7 +6,7 @@ error = 0.000001
 error_decimals = 6
 
 #Approximation of natural number e
-#E = 2.718281828459045
+E = 2.718281828459045
 
 #Approximation of PI
 PI = 3.141592653589793
@@ -15,6 +15,7 @@ DEGREE 			= PI/180
 OUTOFRANGE 		= 'Out of range'
 
 
+'''
 #Approximation of natural number e
 def e():
     n = 17
@@ -22,7 +23,7 @@ def e():
     for i in range(1, n + 1):
         sum1 = sum1 + (1 / math.factorial(i))
     print("The sum of series is", sum1)
-
+'''
 
 # Factorial: n!
 def factorial(n):

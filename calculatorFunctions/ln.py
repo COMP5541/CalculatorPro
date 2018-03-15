@@ -14,16 +14,13 @@ If x > e: a useful property is ln(x/e) = ln(x)-ln(e) --> ln(x)=ln(x/e)+1
 
 '''
 
-import config
-from config import e
-
+from calculatorFunctions.config import E
+from calculatorFunctions.config import error
+from calculatorFunctions.config import error_decimals
+from calculatorFunctions.config import my_abs
 
 #Import math until other functions available
 import math
-
-#Define target precision
-error=0.0000000001
-error_decimals = 10
 
 def loge(x):
     #Handle exceptional cases
@@ -42,8 +39,8 @@ def loge(x):
     '''
     if(x<1):
         return (-loge(1.0/x))
-    if(x>e):
-        return (loge(x/e)+1.0)
+    if(x>E):
+        return (loge(x/E)+1.0)
     
     #Binary Search Approach
     lo=0.0
@@ -51,15 +48,15 @@ def loge(x):
 
     while(True):
         mid=(lo+hi)/2.0
-        val= math.exp(mid)
+        val= E ** mid #Python exponent operator
         if (val>x):
             hi=mid
         if(val<x):
             lo=mid
-        if (commonFunctions.my_abs(val-x)<error):
+        if (my_abs(val-x)<error):
             return round(mid,error_decimals)
 
 if __name__ == "__main__":            
-    test=1 #Enter whatever input you want to test
+    test=5 #Enter whatever input you want to test
     print(loge(test))
     print(math.log(test))   

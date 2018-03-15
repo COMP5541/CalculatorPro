@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="Implementation of functions: SquareRoot and Power">
+    <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/CalculatorPro.iml" afterPath="$PROJECT_DIR$/.idea/CalculatorPro.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/calculator.py" afterPath="$PROJECT_DIR$/calculator.py" />
-      <change beforePath="$PROJECT_DIR$/calculatorFunctions/PowerFunction/tentopowerx.py" afterPath="$PROJECT_DIR$/calculatorFunctions/PowerFunction/tentopowerx.py" />
-      <change beforePath="$PROJECT_DIR$/calculatorFunctions/__init__.py" afterPath="$PROJECT_DIR$/calculatorFunctions/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/calculatorFunctions/commonFunctions/__init__.py" afterPath="$PROJECT_DIR$/calculatorFunctions/config.py" />
-      <change beforePath="$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py" afterPath="$PROJECT_DIR$/calculatorFunctions/Exponential/commonFunctions.py" />
-      <change beforePath="$PROJECT_DIR$/calculatorFunctions/log/ln.py" afterPath="$PROJECT_DIR$/calculatorFunctions/ln.py" />
-      <change beforePath="$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py" afterPath="$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py" />
-      <change beforePath="$PROJECT_DIR$/calculatorFunctions/squareroot/testSquareroot.py" afterPath="$PROJECT_DIR$/calculatorFunctions/squareroot/testSquareroot.py" />
+      <change beforePath="$PROJECT_DIR$/calculatorFunctions/Exponential/commonFunctions.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/calculatorFunctions/config.py" afterPath="$PROJECT_DIR$/calculatorFunctions/config.py" />
+      <change beforePath="$PROJECT_DIR$/calculatorFunctions/ln.py" afterPath="$PROJECT_DIR$/calculatorFunctions/ln.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,13 +22,15 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ln.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculatorFunctions/ln.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="380">
+              <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <folding>
+                <element signature="e#427#467#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,28 +38,8 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculatorFunctions/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculatorFunctions/log/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commonFunctions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculatorFunctions/Exponential/commonFunctions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="238">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -118,15 +95,17 @@
         <option value="$PROJECT_DIR$/calculatorFunctions/commonFunctions/__init__.py" />
         <option value="$PROJECT_DIR$/calculatorFunctions/commonFunctions/ln.py" />
         <option value="$PROJECT_DIR$/calculatorFunctions/__init__.py" />
-        <option value="$PROJECT_DIR$/calculatorFunctions/ln.py" />
+        <option value="$PROJECT_DIR$/../COMP5541draft/ln_draft.py" />
         <option value="$PROJECT_DIR$/calculatorFunctions/config.py" />
+        <option value="$PROJECT_DIR$/calculatorFunctions/ln.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="x" value="-7" />
+    <option name="y" value="19" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -164,13 +143,22 @@
               <item name="CalculatorPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalculatorPro" type="462c0819:PsiDirectoryNode" />
               <item name="calculatorFunctions" type="462c0819:PsiDirectoryNode" />
-              <item name="Exponential" type="462c0819:PsiDirectoryNode" />
+              <item name="commonFunctions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CalculatorPro" type="b2602c69:ProjectViewProjectNode" />
               <item name="CalculatorPro" type="462c0819:PsiDirectoryNode" />
               <item name="calculatorFunctions" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COMP5541draft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CalculatorPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="COMP5541draft" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,9 +180,9 @@
       <recent name="$PROJECT_DIR$/calculatorFunctions/PowerFunction" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\agust\PycharmProjects\CalculatorPro\calculatorFunctions\commonFunctions" />
       <recent name="C:\Users\agust\PycharmProjects\CalculatorPro\calculatorFunctions" />
       <recent name="C:\Users\agust\PycharmProjects\CalculatorPro\calculatorFunctions\Exponential" />
-      <recent name="C:\Users\agust\PycharmProjects\CalculatorPro\calculatorFunctions\commonFunctions" />
       <recent name="$PROJECT_DIR$/calculatorFunctions" />
       <recent name="$PROJECT_DIR$/calculatorFunctions/squareroot" />
     </key>
@@ -211,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.config">
+  <component name="RunManager" selected="Python.ln (1)">
     <configuration name="calculator (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,6 +254,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="ln (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calculatorFunctions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CalculatorPro" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculatorFunctions/ln.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ln" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,38 +290,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="tentopowerx (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/calculatorFunctions/PowerFunction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CalculatorPro" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculatorFunctions/PowerFunction/tentopowerx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.calculator" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tentopowerx (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.calculator (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ln" />
-      <item index="4" class="java.lang.String" itemvalue="Python.config" />
+      <item index="1" class="java.lang.String" itemvalue="Python.calculator (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ln" />
+      <item index="3" class="java.lang.String" itemvalue="Python.config" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ln (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.config" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ln" />
-        <item index="2" class="java.lang.String" itemvalue="Python.calculator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.calculator (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tentopowerx (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ln (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.config" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ln" />
+        <item index="3" class="java.lang.String" itemvalue="Python.calculator" />
+        <item index="4" class="java.lang.String" itemvalue="Python.calculator (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519434464789</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Implementation of functions: SquareRoot and Power">
+      <created>1521073010797</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1521073010797</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -417,18 +412,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19838946" sideWeight="0.4950249" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19838946" sideWeight="0.4950249" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30866143" sideWeight="0.511713" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22204724" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2488189" sideWeight="0.48462665" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22204724" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842416" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23149607" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940828" sideWeight="0.50497514" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -505,13 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/calculatorFunctions/Exponential/commonFunctions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -653,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#254#279#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,17 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#255#276#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculatorFunctions/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,24 +686,15 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#277#287#0" expanded="true" />
+            <element signature="e#277#287#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculatorFunctions/Exponential/commonFunctions.py">
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="31" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculatorFunctions/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="61" column="54" lean-forward="false" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="31" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -739,15 +702,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../COMP5541draft/ln_draft.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="55" column="37" lean-forward="false" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculatorFunctions/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calculatorFunctions/ln.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="380">
+          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="e#427#467#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
