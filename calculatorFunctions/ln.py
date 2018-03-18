@@ -14,13 +14,17 @@ If x > e: a useful property is ln(x/e) = ln(x)-ln(e) --> ln(x)=ln(x/e)+1
 
 '''
 
-from calculatorFunctions.config import E
+from calculatorFunctions.config import e
 from calculatorFunctions.config import error
 from calculatorFunctions.config import error_decimals
 from calculatorFunctions.config import my_abs
 
 #Import math until other functions available
 import math
+
+
+#Value of Euler's constant
+E = e()
 
 def loge(x):
     #Handle exceptional cases

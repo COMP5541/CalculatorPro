@@ -84,8 +84,6 @@ class calculator:
         self.e.focus_set()
 
 
-
-
         # Creating Buttons
 
         # Number Pad
