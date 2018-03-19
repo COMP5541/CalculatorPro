@@ -1,28 +1,27 @@
 import decimal
-from model.bFunction import CommonToFunction as CTF
+from model.baseFunction import CommonToFunction as CTF
+from model.sin import Sin
 
-class CalcFunction(CTF):
+class CalculatorFunction(CTF):
 
-    # TODO -- use own power function implmentation
-    def arctan(self,x):
-        d = decimal.Decimal
-        with decimal.localcontext() as context:
-            context.prec += 4
-            result = d(0)
-            for n in range(0, 20, 1):
-                result = result + ((d(-1)) ** n) * (x ** (d(2) * n + d(1))) / (d(2) * n + d(1))
-        return result
+    def __init__(self):
+        self.d = decimal.Decimal
+        #init sin with default parameter
+        self.sin = Sin()
 
-    def piconstant(self):
-        d = decimal.Decimal
-        return d(4) * (d(4) * self.arctan((d(1 / 5)) - self.arctan(d(1 / 239))))
+    def Sin(self,num):
+        a = self.sin.calculate(num)
+        return self.formatOutput(a)
 
     def formatOutput(self,num):
-        super().formatOutput()
+        return super().formatOutput(num)
 
 def main():
-    testPi = CalcFunction()
-    print(testPi.piconstant())
+    d = decimal.Decimal
+    #test sin
+    print(CalculatorFunction().Sin(3.14))
+    #test pi
+    print(CalculatorFunction().formatOutput(CalculatorFunction().piconstant()))
 
 if __name__ == '__main__':
     main()
