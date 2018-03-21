@@ -1,35 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="4">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/Exponential/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/Exponential/funEx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/Exponential/funExUnitTest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/PowerFunction/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/PowerFunction/tentopowerx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/PowerFunction/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/10toPowerx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/TenToPowerX/tentopowerx.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/config.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/ln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/log/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/log/test_ln.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/sample_function.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/sin/sin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/sin/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/squareroot/squareroot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/calculatorFunctions/squareroot/testSquareroot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/baseFunction.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/model/sin.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/calculatorFunctions/sin/__init__.py" afterPath="$PROJECT_DIR$/commonAssets/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/calculatorFunctions/squareroot/__init__.py" afterPath="$PROJECT_DIR$/commonAssets/__init__.py" />
+    <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="mvc 1.5 - moving factorial from model main to baseLibrary">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ethernity.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/main.py" afterPath="$PROJECT_DIR$/controller/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/baseLibrary.py" afterPath="$PROJECT_DIR$/model/baseLibrary.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/main.py" afterPath="$PROJECT_DIR$/model/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/main.py" afterPath="$PROJECT_DIR$/view/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,8 +24,8 @@
       <file leaf-file-name="baseLibrary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/baseLibrary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1925">
-              <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+            <state relative-caret-position="-250">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#244#255#0" expanded="true" />
               </folding>
@@ -58,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="475">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="e#244#258#0" expanded="true" />
               </folding>
@@ -70,21 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.txt">
+      <file leaf-file-name="ethernity.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ethernity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-945">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="150">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -93,7 +58,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="-1232">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -170,7 +135,6 @@
         <option value="$PROJECT_DIR$/../COMP5541draft/ln_draft.py" />
         <option value="$PROJECT_DIR$/calculatorFunctions/ln.py" />
         <option value="$PROJECT_DIR$/calculatorFunctions/config.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/model/bFunction.py" />
         <option value="$PROJECT_DIR$/model/sin.py" />
         <option value="$PROJECT_DIR$/model/baseFunction.py" />
@@ -180,9 +144,10 @@
         <option value="$PROJECT_DIR$/commonAssets/buttons.py" />
         <option value="$PROJECT_DIR$/commonAssets/main.py" />
         <option value="$PROJECT_DIR$/view/main.py" />
-        <option value="$PROJECT_DIR$/model/main.py" />
-        <option value="$PROJECT_DIR$/model/baseLibrary.py" />
         <option value="$PROJECT_DIR$/controller/main.py" />
+        <option value="$PROJECT_DIR$/model/baseLibrary.py" />
+        <option value="$PROJECT_DIR$/model/main.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -317,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,24 +296,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CalculatorPro" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CalculatorPro" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/sin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,6 +350,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CalculatorPro" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calculatorFunctions/cmnAssets/buttons.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CalculatorPro" />
+      <option name="SCRIPT_NAME" value="C:\Users\zange\PycharmProjects\CalculatorPro\ethernity.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -474,18 +439,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sin" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.buttons" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main (3)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.buttons" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.buttons" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main (2)" />
         <item index="2" class="java.lang.String" itemvalue="Python.main (3)" />
         <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sin" />
+        <item index="4" class="java.lang.String" itemvalue="Python.buttons" />
       </list>
     </recent_temporary>
   </component>
@@ -636,7 +601,21 @@
       <option name="project" value="LOCAL" />
       <updated>1521427028892</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="mvc 1.4 - adding common assets and moving function from the view to the controller.">
+      <created>1521606915879</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1521606915879</updated>
+    </task>
+    <task id="LOCAL-00021" summary="mvc 1.5 - moving factorial from model main to baseLibrary">
+      <created>1521607321821</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1521607321821</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -729,7 +708,9 @@
     <MESSAGE value="mvc 1.1 - adding PI implementation to the calculator function" />
     <MESSAGE value="mvc 1.2 - adding SIN implementation to the calculator, refactoring bFunction which turns into baseFunction" />
     <MESSAGE value="mvc 1.3 - (1) Adding baseLibrary as a holder for all common base functions and constants used to calculate other functions. (2) Moving pi implementation to baseLibrary. (3) Reusing/moving all implemented function from sample_function to baseLibrary" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvc 1.3 - (1) Adding baseLibrary as a holder for all common base functions and constants used to calculate other functions. (2) Moving pi implementation to baseLibrary. (3) Reusing/moving all implemented function from sample_function to baseLibrary" />
+    <MESSAGE value="mvc 1.4 - adding common assets and moving function from the view to the controller." />
+    <MESSAGE value="mvc 1.5 - moving factorial from model main to baseLibrary" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc 1.5 - moving factorial from model main to baseLibrary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -826,14 +807,6 @@
     <entry file="file://$PROJECT_DIR$/../COMP5541draft/comm_functions.py" />
     <entry file="file://$PROJECT_DIR$/calculatorFunctions/commonFunctions/commonFunctions.py" />
     <entry file="file://$PROJECT_DIR$/calculatorFunctions/commonFunctions/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculatorFunctions/log/test_ln.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1015,26 +988,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-945">
+        <state relative-caret-position="-807">
           <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/baseLibrary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1925">
-          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+        <state relative-caret-position="-250">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#244#255#0" expanded="true" />
           </folding>
@@ -1043,11 +1006,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="475">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="e#244#258#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1232">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethernity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
