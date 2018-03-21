@@ -14,14 +14,17 @@ If x > e: a useful property is ln(x/e) = ln(x)-ln(e) --> ln(x)=ln(x/e)+1
 
 '''
 
-from calculatorFunctions.config import e
-from calculatorFunctions.config import error
-from calculatorFunctions.config import error_decimals
-from calculatorFunctions.config import my_abs
+
 
 #Import math until other functions available
 import math
+# Import math until other functions available
+import math
 
+from Model.config import e
+from Model.config import error
+from Model.config import error_decimals
+from Model.config import myAbs
 
 #Value of Euler's constant
 E = e()
@@ -57,7 +60,7 @@ def loge(x):
             hi=mid
         if(val<x):
             lo=mid
-        if (my_abs(val-x)<error):
+        if (myAbs(val-x)<error):
             return round(mid,error_decimals)
 
 if __name__ == "__main__":            

@@ -1,6 +1,3 @@
-import math
-
-
 #Error variables
 error = 0.000001
 error_decimals = 6
@@ -21,9 +18,11 @@ def e():
     n = 17
     sum1 = 1
     for i in range(1, n + 1):
-        sum1 = sum1 + (1 / math.factorial(i))
+        sum1 = sum1 + (1 / factorial(i))
     return sum1
     #print("The sum of series is", sum1)
+
+
 
 # Factorial: n!
 def factorial(n):
@@ -32,12 +31,16 @@ def factorial(n):
         result *= i
     return result
 
+
+
 # Absolute:|n|
-def my_abs(n):
+def myAbs(n):
     if (n<0):
         return -n
     else:
         return n
+
+
 
 # Exponent: base to the power exp (base^exp)
 def power(base, exp):

@@ -1,3 +1,5 @@
+from Model import config
+
 __author__ = "The CalculatorPro Inc."
 __copyright__ = "Copyright 2018, CalculatorPro"
 __credits__ = ["Team A"]
@@ -7,6 +9,7 @@ __maintainer__ = "Bernardo Sandi"
 __email__ = "B_SANDI@encs.concordia.ca"
 __status__ = "Release v1.0"
 
+from Model import config
 
 def squareroot( value):
 
@@ -20,9 +23,9 @@ def squareroot( value):
 
 
     while True:
-        dif = calculatorFunctions.power(squareRootVal, 2) - value
+        dif = config.power(squareRootVal, 2) - value
 
-        if calculatorFunctions.my_abs(dif) <= error:
+        if config.myAbs(dif) <= error:
             break
 
         squareRootVal = (squareRootVal + value / squareRootVal) / 2.0

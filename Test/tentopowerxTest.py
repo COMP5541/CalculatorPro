@@ -8,8 +8,9 @@ __email__ = "f_mobas@encs.concordia.ca"
 __status__ = "Release v1.0"
 
 
-from calculatorFunctions.PowerFunction.tentopowerx import tentopower
 import math
+
+from Model.tentopowerx import tentopower
 
 #Calculation Test1
 test1 = 2.2

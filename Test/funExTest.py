@@ -13,7 +13,7 @@ __status__ = "Release v1.0"
 
 import math
 
-from calculatorFunctions.Exponential.funEx import fun_ex
+from Model.funEx import fun_ex
 
 # Test 1 (value = positive integer)
 if fun_ex(5) == math.exp(5):

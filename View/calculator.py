@@ -10,12 +10,8 @@ __status__ = "Release v1.0"
 
 from tkinter import *
 
-from calculatorFunctions.squareroot import squareroot
+from Model import funEx, ln, sin, squareroot, tentopowerx
 
-from calculatorFunctions.sin import sin
-from calculatorFunctions.Exponential import funEx
-from calculatorFunctions import ln
-from calculatorFunctions.PowerFunction import tentopowerx
 
 class calculator:
 
@@ -82,6 +78,8 @@ class calculator:
         self.e = Entry(master)
         self.e.grid(row=0, column=0, columnspan=6 )
         self.e.focus_set()
+
+
 
 
         # Creating Buttons
