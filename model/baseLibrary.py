@@ -10,13 +10,12 @@ __status__ = "Release v1.0"
 import math
 import decimal
 
-def e():
+def econstant():
     n = 17
     sum1 = 1
     for i in range(1, n + 1):
         sum1 = sum1 + (1 / math.factorial(i))
     return sum1
-    #print("The sum of series is", sum1)
 
 # Factorial: n!
 def factorial(n):
@@ -68,3 +67,13 @@ def arctan(x):
 def piconstant():
     d = decimal.Decimal
     return d(4) * (d(4) * arctan(d(1 / 5)) - arctan(d(1 / 239)))
+
+
+def e():
+    n = 17
+    sum1 = 1
+    for i in range(1, n + 1):
+        sum1 = sum1 + (1 / math.factorial(i))
+    return sum1
+    #print("The sum of series is", sum1)
+
