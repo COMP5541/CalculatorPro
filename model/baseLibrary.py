@@ -18,11 +18,18 @@ def econstant():
     return sum1
 
 # Factorial: n!
+#def factorial(n):
+#    result = 1
+#    for i in range(2, n + 1):
+#        result *= i
+#    return result
+
 def factorial(n):
-    result = 1
-    for i in range(2, n + 1):
-        result *= i
-    return result
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
 
 # Absolute:|n|
 def my_abs(n):

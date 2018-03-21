@@ -19,16 +19,10 @@ degree = pi / d(180)
 #Error variables
 error = 0.000001
 error_decimals = 6
-#
+
 def degreeToRadian(angle):
     angle = d(angle)
     return degree * angle
-
-def factorial(n):
-    if n == 1:
-        return 1
-    else:
-        return n * factorial(n - 1)
 
 def numToPowerOf(base, exponent):
     if exponent == 0:
