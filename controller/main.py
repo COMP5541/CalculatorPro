@@ -23,7 +23,7 @@ class Controller():
         result = 0
 
         if (self.isWithinRange(entry)):
-            if (function==btn.ln):
+            if (function==btn.loge):
                 result = cf.loge(entry)
             elif (function==btn.sqr):
                 result = cf.squareroot(entry)
@@ -70,7 +70,6 @@ class Controller():
             return '1'
         else:
             return numStr
-
 
 if __name__ == '__main__':
     Controller().run()

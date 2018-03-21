@@ -1,7 +1,7 @@
 from controller.main import Controller
 
-def calculator():
+def main():
     Controller().run()
 
 if __name__ == '__main__':
-    calculator()
+    main()

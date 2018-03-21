@@ -6,4 +6,5 @@ class Button(Enum):
     sqr     =2,
     pow     =3,
     ePowx   =4,
-    tenPowx =5
+    tenPowx =5,
+    loge    =6
