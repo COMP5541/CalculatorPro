@@ -1,12 +1,11 @@
 __author__ = "The CalculatorPro Inc."
 __copyright__ = "Copyright 2018, CalculatorPro"
-__credits__ = ["Team A"]
+__credits__ = ['Team A']
 __license__ = "GPL"
 __version__ = "1.0"
-__maintainer__ = "Beranrdo Sandi"
-__email__ = "B_SANDI@encs.concordia.ca"
+__maintainer__ = "Team A"
+__email__ = "TeamA@mail.concordia.ca"
 __status__ = "Release v1.0"
-
 
 from commonAssets.main import Button as btn
 from tkinter import Button
@@ -46,7 +45,7 @@ class CalculatorGUI:
         Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.epowx)).grid(row=2, column=5)
         Button(master, text="10^x",  width=3, command=lambda: self.controller.buttonevent(btn.tenPowx)).grid(row=3, column=5)
         Button(master, text="√",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=3, column=4)
-        Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.ln)).grid(row=4, column=4)
+        Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.loge)).grid(row=4, column=4)
 
     def clearAll(self):
         self.entry.delete(0, END)
