@@ -21,7 +21,7 @@ CalculatorPro_0.9.1
 
 
 Authors
-Zbigniew Angelus Krzyzanowski	zbigniew.angeluskrzyzanowski@mail.concordia.ca
+Zbigniew Angelus Krzyzanowski	z_angelu@encs.concordia.ca
 Agustin	Gimenez Comas	    	a_gimene@encs.concordia.ca
 Faezeh	Mobasheri	        	f_mobas@encs.concordia.ca
 Jasdeep Singh Ratol	        	j_ratol@encs.concordia.ca
