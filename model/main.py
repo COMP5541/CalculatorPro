@@ -8,8 +8,8 @@ __email__ = "TeamA@mail.concordia.ca"
 __status__ = "Release v1.0"
 
 import decimal
-from model.baseLibrary import *
-import model.baseLibrary as lib
+from Model.baseLibrary import *
+import Model.baseLibrary as lib
 
 d = decimal.Decimal
 pi = lib.piconstant()

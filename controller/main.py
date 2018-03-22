@@ -1,8 +1,8 @@
 from tkinter import Tk
 from tkinter import END
-from view.main import CalculatorGUI as View
-from model.main import *
-import model.main as cf
+from View.main import CalculatorGUI as View
+from Model.main import *
+import Model.main as cf
 from commonAssets.main import Button as btn
 
 class Controller():
