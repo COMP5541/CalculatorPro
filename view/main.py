@@ -42,7 +42,7 @@ class CalculatorGUI:
 
         # MAth Functions
         Button(master, text="sin",   width=3, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=1, column=5)
-        Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.epowx)).grid(row=2, column=5)
+        Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.ePowx)).grid(row=2, column=5)
         Button(master, text="10^x",  width=3, command=lambda: self.controller.buttonevent(btn.tenPowx)).grid(row=3, column=5)
         Button(master, text="√",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=3, column=4)
         Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.loge)).grid(row=4, column=4)
