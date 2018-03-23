@@ -7,16 +7,44 @@ __maintainer__ = "Faezeh Mobasheri"
 __email__ = "f_mobas@encs.concordia.ca"
 __status__ = "Release v1.0"
 
-from Model import funEx
-
-from Model.ln import loge
 
 
-def tentopower(x):
-    A=loge(10)
-    B=x*A
-    result=funEx.fun_ex(B)
-    return result
+from Model.config import myAbs, power, factorial
 
-#print(tentopower(24.9))
-#print(pow(10, 24.9))
+
+#power series of 10^x function
+def tentopowerx(x):
+    try:
+        if type(x)==int:
+
+            if x==0:
+               return 1
+
+            elif x==1:
+               return 10
+
+            else:
+                return power(10, x)
+
+        elif type(x)==float:
+
+            e=int(x)
+            decimal=myAbs(x-e)
+            tentopower=0
+            n=0
+            Ln10=2.302585093
+            term=((power(decimal*Ln10, n))/(factorial(n)))
+
+            while myAbs(term) > (1 * 10 ** (-14)):
+                tentopower += term
+                n +=1
+                term = (power(decimal * Ln10, n)) / (factorial(n))
+
+            if x>0:
+                return power(10, e)*tentopower
+
+            else:
+                return 1/(power(10,myAbs(e))*tentopower)
+
+    except :
+        print("Error")

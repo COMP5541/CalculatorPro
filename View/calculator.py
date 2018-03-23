@@ -9,10 +9,11 @@ __status__ = "Release v1.0"
 
 
 from tkinter import *
-from Controller import *
+from Controller import calculator
 
 #Initialize calculator
 
+calculator=calculator()
 def __init__(self, master):
     master.title('ETERNITY')
     master.geometry()
@@ -79,6 +80,6 @@ def __init__(self, master):
 
 
 # Main
-cal = Tk()
-#object = calculator(root)  # object instantiated
-cal.mainloop()
+root = Tk()
+object = calculator(root)  # object instantiated
+root.mainloop()
