@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="-/+ button added to view . First implementation of -/+ function added to the controller">
-      <change beforePath="$PROJECT_DIR$/.idea/CalculatorPro.iml" afterPath="$PROJECT_DIR$/.idea/CalculatorPro.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Controller/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Controller/main.py" afterPath="$PROJECT_DIR$/Controller/main.py" />
-      <change beforePath="$PROJECT_DIR$/Model/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Model/config.py" afterPath="$PROJECT_DIR$/Model/config.py" />
-      <change beforePath="$PROJECT_DIR$/Model/funEx.py" afterPath="$PROJECT_DIR$/Model/exp.py" />
-      <change beforePath="$PROJECT_DIR$/Model/ln.py" afterPath="$PROJECT_DIR$/Model/ln.py" />
-      <change beforePath="$PROJECT_DIR$/Model/tentopowerx.py" afterPath="$PROJECT_DIR$/Model/tentopowerx.py" />
-      <change beforePath="$PROJECT_DIR$/View/__init__.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -675,7 +665,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521774106974</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Improved exponential function in module now named exp.py, and modified nl.py.">
+      <created>1521778730780</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1521778730781</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -778,7 +775,8 @@
     <MESSAGE value="moving empty folder to temporary. To be removed" />
     <MESSAGE value="removing temporary folder" />
     <MESSAGE value="-/+ button added to view . First implementation of -/+ function added to the controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="-/+ button added to view . First implementation of -/+ function added to the controller" />
+    <MESSAGE value="Improved exponential function in module now named exp.py, and modified nl.py." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved exponential function in module now named exp.py, and modified nl.py." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
