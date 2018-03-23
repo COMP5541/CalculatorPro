@@ -10,7 +10,8 @@ PI = 3.141592653589793
 DEGREE 			= PI/180
 OUTOFRANGE 		= 'Out of range'
 
-
+#Variable for 10exp function
+LN_10 = 2.30258509299405
 
 # Factorial: n!
 def factorial(n):

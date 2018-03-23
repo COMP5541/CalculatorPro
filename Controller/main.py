@@ -32,7 +32,7 @@ class Controller():
             elif (function==btn.sqr):
                 result = squareroot.squareroot(entry)
             elif (function==btn.tenPowx):
-                result = tentopowerx.tentopower(entry)
+                result = tentopowerx.exp10(entry)
             elif (function==btn.sin):
                 result = sin.sin(entry)
             elif (function == btn.minusplus):
