@@ -19,4 +19,3 @@ def fun_ex(value):
 
 
 
-print(fun_ex(12))
