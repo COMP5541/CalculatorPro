@@ -39,9 +39,10 @@ class CalculatorGUI:
         # Behavior Functions
         Button(self.master, text='AC', width=3, command=lambda: self.clearAll()).grid(row=1, column=4)
         Button(self.master, text='C',  width=3, command=lambda: self.deleteOne()).grid(row=2, column=4)
+        Button(self.master, text='-/+', width=3, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=4, column=5)
 
         # MAth Functions
-
+        Button(master, text="sin",   width=3, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=1, column=5)
         Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.epowx)).grid(row=2, column=5)
         Button(master, text="10^x",  width=3, command=lambda: self.controller.buttonevent(btn.tenPowx)).grid(row=3, column=5)
         Button(master, text="√",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=3, column=4)

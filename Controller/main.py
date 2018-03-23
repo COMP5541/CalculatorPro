@@ -35,8 +35,10 @@ class Controller():
                 result = tentopowerx.tentopower(entry)
             elif (function==btn.sin):
                 result = sin.sin(entry)
+            elif (function == btn.minusplus):
+                result = -1 * entry
             elif (function==btn.ePowx):
-                result = 1
+                result = -1*entry
             else:
                 pass
             self.clearEntry()
