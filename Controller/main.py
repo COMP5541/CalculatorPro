@@ -6,7 +6,7 @@ import Model.funEx as funEx
 import Model.ln as ln
 import Model.squareroot as squareroot
 import Model.tentopowerx as tentopowerx
-from commonAssets.main import Button as btn
+from CommonAssets.main import Button as btn
 import decimal
 
 class Controller():
