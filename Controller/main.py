@@ -3,7 +3,7 @@ from tkinter import END
 from View.main import CalculatorGUI as View
 import Model.sin as sin
 import Model.exp as funEx
-import Model.ln as ln
+import Model.log
 import Model.squareroot as squareroot
 import Model.tentopowerx as tentopowerx
 from CommonAssets.main import Button as btn
@@ -27,8 +27,8 @@ class Controller():
         result = 0
 
         if (self.isWithinRange(entry)):
-            if (function==btn.loge):
-                result = ln.loge(entry)
+            if (function==btn.ln):
+                result = log.ln(entry)
             elif (function==btn.sqr):
                 result = squareroot.squareroot(entry)
             elif (function==btn.tenPowx):

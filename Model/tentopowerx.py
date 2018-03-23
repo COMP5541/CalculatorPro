@@ -50,5 +50,4 @@ def tentopower(x):
 
 '''
 
-#print(tentopower(24.9))
-#print(pow(10, 24.9))
+#print(exp10(-2.5))
