@@ -9,75 +9,95 @@ __status__ = "Release v1.0"
 
 #import parser
 from Model import funEx, ln, sin, squareroot, tentopowerx
+from tkinter import *
+from View.view import GUI
 
 
-class controller:
-# def clearAll(self):
-#     self.e.delete(0, END)
-#
-# def deleteOne(self):
-#     self.txt = self.e.get()[:-1]
-#     self.e.delete(0, END)
-#     self.insert(0, self.txt)
+class Controller:
+    def __init__(self):
+        self.root = Tk()
+        self.view = GUI(self.root, self)
+
+    def run(self):
+        self.root.mainloop()
+
+
+    def getEntry(self):
+        return eval(self.view.entry.get())
+
+    def clearEntry(self):
+        self.view.entry.delete(0, END)
+
+    def writeEntry(self,result):
+        self.view.entry.insert(0, result)
+
+    def clearAll(self):
+        self.view.entry.delete(0, END)
+
+    def deleteOne(self):
+        self.txt = self.view.entry.get()[:-1]
+        self.view.entry.delete(0, END)
+        self.view.entry.insert(0, self.txt)
+
+    def calculate(self):
+
+        try:
+            result = self.getEntry()
+            self.clearAll()
+            self.writeEntry(result)
+        except Exception:
+            self.clearAll()
+            self.view.entry.insert(0, "Error!")
 
 
 
+    def inputVal(self, argi):
+        self.view.entry.insert(END, argi)
 
-#
-# def calculate(self):
-#     self.value= eval(self.e.get())
-#     try:
-#         formula = self.e.get()#parser.expr(self.value).compile()
-#         result = eval(formula)
-#         self.clearAll()
-#         self.e.insert(0, result)
-#     except Exception:
-#         self.clearAll()
-#         self.e.insert(0, "Error!")
+    def inputOperator(self, operator):
+        self.view.entry.insert(END, operator)
 
-
-
-
-
-        # Functions
+                # Functions
 
         # Squareroot function
-    def square(self,value):
-        # self.value = eval(self.e.get())
-        return squareroot.squareroot(value)
-        # self.e.delete(0, END)
-        # self.e.insert(0, self.sqrtval)
+    def square(self):
+        value = self.getEntry()
+        self.clearEntry()
+        result = squareroot.squareroot(value)
+        self.writeEntry(result)
+
+
+        # Natural Logarithm function
+    def ln(self):
+        value = self.getEntry()
+        self.clearEntry()
+        result = ln.loge(value)
+        self.writeEntry(result)
+
+        # Ten to the power function
+    def tenToPower(self):
+        value = self.getEntry()
+        self.clearEntry()
+        result = tentopowerx.tentopowerx(value)
+        self.writeEntry(result)
 
 
 
-
-    # Natural Logarithm function
-# def ln(self):
-#     self.value = eval(self.e.get())
-#     self.sqrtval = ln.loge(self.value)
-#     self.e.delete(0, END)
-#     self.e.insert(0, self.sqrtval)
-#
-#     # Ten to the power function
-# def tenToPower(self):
-#     self.value = eval(self.e.get())
-#     self.sqrtval = tentopowerx.tentopower(self.value)
-#     self.e.delete(0, END)
-#     self.e.insert(0, self.sqrtval)
-#
-#
-#     # e to the power function
-# def exFunc(self):
-#     self.value = eval(self.e.get())
-#     self.sqrtval = funEx.fun_ex(self.value)
-#     self.e.delete(0, END)
-#     self.e.insert(0, self.sqrtval)
-#
-#     # Sine  function
-# def sine(self):
-#     self.value = eval(self.e.get())
-#     self.sqrtval = sin.sin(self.value)
-#     self.e.delete(0, END)
-#     self.e.insert(0, self.sqrtval)
+        # e to the power function
+    def exFunc(self):
+        value = self.getEntry()
+        self.clearEntry()
+        result = funEx.fun_ex(value)
+        self.writeEntry(result)
 
 
+        # Sine  function
+    def sine(self):
+        value = self.getEntry()
+        self.clearEntry()
+        result = sin.sin(value)
+        self.writeEntry(result)
+
+
+
+Controller().run()
