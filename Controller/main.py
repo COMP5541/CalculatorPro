@@ -1,11 +1,11 @@
 from tkinter import Tk
 from tkinter import END
 from View.main import CalculatorGUI as View
-import Model.sin as sin
-import Model.exp as funEx
-import Model.log
-import Model.squareroot as squareroot
-import Model.tentopowerx as tentopowerx
+from Model.sin import sin
+from Model.exp import exp
+from Model.log import ln
+from Model.squareroot import squareroot
+from Model.tentopowerx import exp10
 from CommonAssets.main import Button as btn
 import decimal
 
@@ -28,17 +28,17 @@ class Controller():
 
         if (self.isWithinRange(entry)):
             if (function==btn.ln):
-                result = log.ln(entry)
+                result = ln(entry)
             elif (function==btn.sqr):
-                result = squareroot.squareroot(entry)
+                result = squareroot(entry)
             elif (function==btn.tenPowx):
-                result = tentopowerx.exp10(entry)
+                result = exp10(entry)
             elif (function==btn.sin):
-                result = sin.sin(entry)
+                result = sin(entry)
             elif (function == btn.minusplus):
                 result = -1 * entry
-            elif (function==btn.ePowx):
-                result = -1*entry
+            elif (function==btn.epowx):
+                result = exp(entry)
             else:
                 pass
             self.clearEntry()
