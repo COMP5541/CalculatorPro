@@ -1,4 +1,4 @@
-from Controller.main import Controller
+from Temporary.Controller import Controller
 
 def main():
     Controller().run()
