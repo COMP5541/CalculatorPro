@@ -61,10 +61,15 @@ class Controller:
 
         # Squareroot function
     def square(self):
-        value = self.getEntry()
-        self.clearEntry()
-        result = squareroot.squareroot(value)
-        self.writeEntry(result)
+        try:
+            value = self.getEntry()
+            self.clearEntry()
+            result = squareroot.squareroot(value)
+        except SyntaxError or NameError:
+            self.clearEntry()
+            self.writeEntry("Invalid Input")
+        else:
+            self.writeEntry(result)
 
 
         # Natural Logarithm function
