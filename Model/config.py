@@ -11,18 +11,6 @@ DEGREE 			= PI/180
 OUTOFRANGE 		= 'Out of range'
 
 
-#Approximation of Euler's constant
-#E = 2.718281828459045
-
-def e():
-    n = 17
-    sum1 = 1
-    for i in range(1, n + 1):
-        sum1 = sum1 + (1 / factorial(i))
-    return sum1
-    #print("The sum of series is", sum1)
-
-
 
 # Factorial: n!
 def factorial(n):
@@ -32,6 +20,17 @@ def factorial(n):
     return result
 
 
+#Approximation of Euler's constant, E = 2.718281828459045
+def e():
+    n = 17
+    sum1 = 1
+    for i in range(1, n + 1):
+        sum1 = sum1 + (1 / factorial(i))
+    return sum1
+    #print("The sum of series is", sum1)
+
+#Constant
+E = e()
 
 # Absolute:|n|
 def myAbs(n):
@@ -40,8 +39,7 @@ def myAbs(n):
     else:
         return n
 
-
-
+'''
 # Exponent: base to the power exp (base^exp)
 def power(base, exp):
     if isinstance(base, (int, float)) and isinstance(exp, int):
@@ -64,3 +62,32 @@ def power(base, exp):
             return 1 / float(power(base, -exp))
     else:
         print('X must be a number and Y must be an integer')
+'''
+
+#Exponent for integers
+def power(a,b):
+
+    #Handle exceptions
+    if (b==0):
+        return 1
+
+    #Initialize vairiables
+    i = 1
+    r = a
+
+    if (b>0):
+        while (i<b):
+            #print(a)
+            r*=a
+            i+=1
+
+        return r
+    else:
+        b=-b
+        while (i<b):
+            r*=a
+            i+=1
+        return 1/r
+
+
+print(power(2,-1))

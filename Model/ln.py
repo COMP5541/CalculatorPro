@@ -21,13 +21,11 @@ import math
 # Import math until other functions available
 import math
 
-from Model.config import e
+from Model.config import E
 from Model.config import error
 from Model.config import error_decimals
 from Model.config import myAbs
-
-#Value of Euler's constant
-E = e()
+from Model.exp import exp
 
 def loge(x):
     #Handle exceptional cases
@@ -55,13 +53,13 @@ def loge(x):
 
     while(True):
         mid=(lo+hi)/2.0
-        val= E ** mid #Python exponent operator
+        val= exp(mid) #Python exponent operator
         if (val>x):
             hi=mid
         if(val<x):
             lo=mid
         if (myAbs(val-x)<error):
-            return round(mid,error_decimals)
+            return mid
 
 if __name__ == "__main__":            
     test=5 #Enter whatever input you want to test

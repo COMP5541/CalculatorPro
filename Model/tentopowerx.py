@@ -7,7 +7,7 @@ __maintainer__ = "Faezeh Mobasheri"
 __email__ = "f_mobas@encs.concordia.ca"
 __status__ = "Release v1.0"
 
-from Model import funEx
+from Model import exp
 
 from Model.ln import loge
 
@@ -15,7 +15,7 @@ from Model.ln import loge
 def tentopower(x):
     A=loge(10)
     B=x*A
-    result=funEx.fun_ex(B)
+    result=exp.fun_ex(B)
     return result
 
 #print(tentopower(24.9))

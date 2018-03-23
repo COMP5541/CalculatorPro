@@ -2,7 +2,7 @@ from tkinter import Tk
 from tkinter import END
 from View.main import CalculatorGUI as View
 import Model.sin as sin
-import Model.funEx as funEx
+import Model.exp as funEx
 import Model.ln as ln
 import Model.squareroot as squareroot
 import Model.tentopowerx as tentopowerx
