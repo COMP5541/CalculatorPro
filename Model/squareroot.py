@@ -13,23 +13,26 @@ from Model import config
 
 def squareroot( value):
 
-    error = 0.0000000001
-    squareRootVal = value/2
-    if value == 0:
-        return 0
+    if value>=0:
+       error = 0.0000000001
+       squareRootVal = value/2
+       if value == 0:
+          return 0
 
-    if value == 1:
-        return 1
+       if value == 1:
+          return 1
 
 
-    while True:
-        dif = config.power(squareRootVal, 2) - value
+       while True:
+          dif = config.power(squareRootVal, 2) - value
 
-        if config.myAbs(dif) <= error:
-            break
+          if config.myAbs(dif) <= error:
+              break
 
-        squareRootVal = (squareRootVal + value / squareRootVal) / 2.0
-    return squareRootVal
+          squareRootVal = (squareRootVal + value / squareRootVal) / 2.0
+          return squareRootVal
+    else:
+        return print("Invalid Input")
 
 
 def main():
@@ -39,5 +42,4 @@ if __name__ == "__main__":
     main()
 else:
     pass
-
 

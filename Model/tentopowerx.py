@@ -46,5 +46,7 @@ def tentopowerx(x):
             else:
                 return 1/(power(10,myAbs(e))*tentopower)
 
-    except TypeError:
+    except :
         print("Error")
+
+#print(tentopowerx())
