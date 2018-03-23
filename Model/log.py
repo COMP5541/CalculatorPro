@@ -8,11 +8,7 @@ __email__ = "a_gimene@encs.concordia.ca"
 __status__ = "Release v1.0"
 
 
-
-
 from Model.config import E
-from Model.config import error
-from Model.config import error_decimals
 from Model.config import myAbs
 from Model.exp import exp
 
@@ -21,10 +17,11 @@ Algorithm for ln(x) using Binary Search
 Properties of the natural logarithm
 If x < 1: a useful property is ln(1/x)=-ln(x)
 If x > e: a useful property is ln(x/e) = ln(x)-ln(e) --> ln(x)=ln(x/e)+1
-
+'''
 
 #Natural Logarithm
-def loge(x):
+def ln(x):
+    error = 0.0000000001 #High-enough precision
     #Handle exceptional cases
     if (x==1):
         return 0
@@ -35,9 +32,9 @@ def loge(x):
     
     #Use recursion to get approximative range
     if(x<1):
-        return (-loge(1.0/x))
+        return (-ln(1.0/x))
     if(x>E):
-        return (loge(x/E)+1.0)
+        return (ln(x/E)+1.0)
     
     #Binary Search Approach
     lo=0.0
@@ -45,7 +42,7 @@ def loge(x):
 
     while(True):
         mid=(lo+hi)/2.0
-        val= exp(mid) #Python exponent operator
+        val= exp(mid)
         if (val>x):
             hi=mid
         if(val<x):
@@ -53,13 +50,13 @@ def loge(x):
         if (myAbs(val-x)<error):
             return mid
 
-'''
-
 
 '''
 Algorithm for computing the base-10 logarithm based on the
 Mathematical-Function Computation Handbook [Beebe]
-'''
+Written by AG and corrected after discussion in StackOverflow
+https://stackoverflow.com/questions/49353928/algorithm-for-computing-base-10-logarithm-in-python
+
 
 #Base-10 Logarithm
 def log10(x):
@@ -98,8 +95,8 @@ def log10(x):
 def ln(x):
     return (log10(x)/log10(E))
 
+'''
 
 if __name__ == "__main__":            
     test=5 #Enter whatever input you want to test
-    print(loge(test))
-    print(math.log(test))   
+    print(ln(test))
