@@ -99,5 +99,5 @@ class Controller:
         self.writeEntry(result)
 
 
-
-Controller().run()
+if __name__ == '__main__':
+    Controller().run()
