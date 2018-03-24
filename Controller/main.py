@@ -62,7 +62,6 @@ class Controller():
             self.clearEntry()
             self.writeEntry(result)
 
-
     def getEntry(self):
         return eval(self.view.entry.get())
 

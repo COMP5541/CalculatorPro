@@ -61,7 +61,7 @@ def power(base, exp):
     else:
         print('X must be a number and Y must be an integer')
 
-# ToDo -- use own power function implmentation
+# ToDo -- use own power function implementation
 def arctan(x):
     d = decimal.Decimal
     with decimal.localcontext() as context:
