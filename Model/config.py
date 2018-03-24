@@ -1,7 +1,8 @@
-#Error variables
-error = 0.000001
-error_decimals = 6
 
+
+#OUTPUT
+def calc_output(x):
+    return round(x,6)
 
 
 #Approximation of PI

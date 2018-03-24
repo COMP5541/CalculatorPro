@@ -1,7 +1,7 @@
 from enum import Enum
 
 DESIRE_GEOMETRY="300x150"
-TITLE = "Ethernity"
+TITLE = "ETERNITY"
 
 class Button(Enum):
     sin         =0,

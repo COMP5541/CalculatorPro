@@ -1,12 +1,27 @@
+__author__ = "The CalculatorPro Inc."
+__copyright__ = "Copyright 2018, CalculatorPro"
+__credits__ = ['Team A']
+__license__ = "GPL"
+__version__ = "1.0"
+__maintainer__ = "Team A"
+__email__ = "TeamA@mail.concordia.ca"
+__status__ = "Release v1.0"
+
+#Import GUI
 from tkinter import Tk
 from tkinter import END
 from View.main import CalculatorGUI as View
+from CommonAssets.main import Button as btn
+
+#Import Model
 from Model.sin import sin
 from Model.exp import exp
 from Model.log import ln
 from Model.squareroot import squareroot
 from Model.tentopowerx import exp10
-from CommonAssets.main import Button as btn
+from Model.config import calc_output
+
+#Import utilities
 import decimal
 
 class Controller():
