@@ -1,15 +1,15 @@
-Readme.txt file for CalculatorPro created 2/23/2018
+Readme.txt file for ETERNITY created 2/23/2018
 COMP 5541 Tools and Techniques for Software Engineering
 Winter 2018
 Team A
 
-CalculatorPro
-CalculatorPro is a simple scientific calculator designed to calculate transcendental functions.
+ETERNITY: A SCIENTIFIC PROJECT IN THE ‘SMALL’
+ETERNITY is a simple scientific calculator designed to calculate transcendental functions.
 
 
 Prerequisites
-Download package CalculatorPro from https://github.com/COMP5541/CalculatorPro
-To run, save CalculatorPro folder in your drive and run calculator.py
+Download package 'CalculatorPro' from https://github.com/COMP5541/CalculatorPro
+To run, save 'CalculatorPro' folder in your drive and run calculator.py
 
 
 Requires Python 3.6
