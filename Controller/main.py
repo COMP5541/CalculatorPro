@@ -37,7 +37,7 @@ class Controller():
                 result = sin(entry)
             elif (function == btn.minusplus):
                 result = -1 * entry
-            elif (function==btn.epowx):
+            elif (function==btn.exp):
                 result = exp(entry)
             else:
                 pass

@@ -87,7 +87,7 @@ def log10(x):
     #Taylor series approximation
     sum = z
     for k in range(3,23,2):
-        sum+=(z**k)/k #used ** instead of my_exp() for simplicity
+        sum+=(z**k)/k #used ** instead of power() for simplicity
 
     return D*sum+n,6
 

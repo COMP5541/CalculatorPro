@@ -61,10 +61,10 @@ class CalculatorGUI:
 
         # MAth Functions
         Button(master, text="sin",   width=3, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=1, column=column5)
-        Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.epowx)).grid(row=2, column=column5)
+        Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.exp)).grid(row=2, column=column5)
         Button(master, text="10^x",  width=3, command=lambda: self.controller.buttonevent(btn.tenPowx)).grid(row=3, column=column5)
         Button(master, text="√",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=3, column=column3)
-        Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.loge)).grid(row=4, column=column3)
+        Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.ln)).grid(row=4, column=column3)
 
     def clearAll(self):
         self.entry.delete(0, END)
