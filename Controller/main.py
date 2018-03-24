@@ -15,11 +15,10 @@ from CommonAssets.main import Button as btn
 
 #Import Model
 from Model.sin import sin
-from Model.exp import exp
+from Model.exp import exp as epowx
 from Model.log import ln
 from Model.squareroot import squareroot
 from Model.tentopowerx import exp10
-from Model.config import calc_output
 
 #Import utilities
 import decimal
@@ -46,14 +45,14 @@ class Controller():
                 result = ln(entry)
             elif (function==btn.sqr):
                 result = squareroot(entry)
-            elif (function==btn.tenPowx):
+            elif (function==btn.exp10):
                 result = exp10(entry)
             elif (function==btn.sin):
                 result = sin(entry)
             elif (function == btn.minusplus):
                 result = -1 * entry
-            elif (function==btn.exp):
-                result = exp(entry)
+            elif (function==btn.epowx):
+                result = epowx(entry)
             else:
                 pass
             self.clearEntry()
