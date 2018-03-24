@@ -1,18 +1,16 @@
 
-
-#OUTPUT
-def calc_output(x):
-    return round(x,6)
-
-
 #Approximation of PI
 PI = 3.141592653589793
 
-DEGREE 			= PI/180
-OUTOFRANGE 		= 'Out of range'
 
 #Variable for 10exp function
 LN_10 = 2.30258509299405
+
+
+#FOR SIN(X) FUNCTION
+DEGREE 			= PI/180
+OUTOFRANGE 		= 'Out of range'
+
 
 # Factorial: n!
 def factorial(n):
@@ -31,7 +29,7 @@ def e():
     return sum1
     #print("The sum of series is", sum1)
 
-#Constant
+#Euler's Constant
 E = e()
 
 # Absolute:|n|
@@ -40,31 +38,6 @@ def myAbs(n):
         return -n
     else:
         return n
-
-'''
-# Exponent: base to the power exp (base^exp)
-def power(base, exp):
-    if isinstance(base, (int, float)) and isinstance(exp, int):
-
-        if base == 0:
-            return 0
-
-        if exp == 0:
-            return 1
-
-        if (exp == 1):
-            return (base)
-
-        # Positive Values
-        if exp > 0:
-            return base * power(base, exp - 1)
-
-        # Negative Values
-        elif exp < 0:
-            return 1 / float(power(base, -exp))
-    else:
-        print('X must be a number and Y must be an integer')
-'''
 
 #Exponent for integers
 def power(a,b):
@@ -92,4 +65,4 @@ def power(a,b):
         return 1/r
 
 
-print(power(2,-1))
+#print(power(2,-1))
