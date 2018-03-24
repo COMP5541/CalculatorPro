@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="50b67861-5a67-437d-bd8b-ad161907b3d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Model/config.py" afterPath="$PROJECT_DIR$/Model/config.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -643,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521856062864</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Improvement on GUI and Controller.">
+      <created>1521856421372</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1521856421372</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
