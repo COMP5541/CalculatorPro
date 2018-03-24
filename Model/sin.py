@@ -7,11 +7,13 @@ __maintainer__ = "Zbigniew Angelus"
 __email__ = "zbigniew.angeluskrzyzanowski@mail.concordia.ca"
 __status__ = "Release v1.0"
 
+#Import utilities
 import decimal
 from Model.config import factorial
 from Model.config import PI
 from Model.config import power
 
+#Define constants
 d = decimal.Decimal
 degree = PI / d(180)
 

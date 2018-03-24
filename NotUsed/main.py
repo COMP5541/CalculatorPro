@@ -7,10 +7,8 @@ __maintainer__ = "Team A"
 __email__ = "TeamA@mail.concordia.ca"
 __status__ = "Release v1.0"
 
-import decimal
-
-import Model.baseLibrary as lib
-from Model.baseLibrary import *
+import NotUsed.baseLibrary as lib
+from NotUsed.baseLibrary import *
 
 d = decimal.Decimal
 pi = lib.piconstant()
