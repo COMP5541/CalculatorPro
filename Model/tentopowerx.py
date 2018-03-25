@@ -9,8 +9,7 @@ __status__ = "Release v1.0"
 
 
 import math
-from Model.config import myAbs, power, factorial, LN_10, VALUE_ERROR
-
+from Model.config import myAbs, power, factorial, LN_10
 
 #power series of 10^x function
 def tentopowerx(x):

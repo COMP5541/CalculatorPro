@@ -7,7 +7,7 @@ __maintainer__ = "Jasdeep Ratol"
 __email__ = " j_ratol@encs.concordia.ca"
 __status__ = "Release v1.0"
 
-from Model.config import E, factorial, VALUE_ERROR, myAbs, power
+from Model.config import E, factorial, myAbs, power
 
 #Exponent for real numbers for basis e
 def exp(x):
@@ -39,14 +39,3 @@ def exp(x):
         if x < 0:
             return 1/(power(E,myAbs(int(x)))*sum)
 
-
-'''
-# for positive numbers range is up-to 40
-# for negative numbers range is up-to -15
-def fun_ex(value):
-    thesum = 1.0
-    for i in range(100, 0, -1):
-        thesum = 1 + value * thesum / i
-    return thesum
-
-'''

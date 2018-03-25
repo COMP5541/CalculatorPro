@@ -80,23 +80,26 @@ class Controller():
         return result
 
     def formatOutput(self,num):
-        numStr = "{0:.7f}".format(num)
-        numStrInt = int(num)
-        numStrComp = "{0:.7f}".format(numStrInt)
+        numStr = "" #Initialize String Output
 
-        if(numStr==numStrComp):
-            return numStrInt
-        elif (numStr == '-0.0000000'):
-            return '0'
-        elif (numStr == '0.0000000'):
-            return '0'
-        elif (numStr == '-1.0000000'):
-            return '1'
-        elif (numStr == '1.0000000'):
-            return '1'
+        if num == False: #If return value is False
+            numStr = "Value Error"
         else:
-            return numStr
-
+            numStr = "{0:.7f}".format(num)
+            numStrInt = int(num)
+            numStrComp = "{0:.7f}".format(numStrInt)
+            if(numStr==numStrComp):
+                return numStrInt
+            elif (numStr == '-0.0000000'):
+                return '0'
+            elif (numStr == '0.0000000'):
+                return '0'
+            elif (numStr == '-1.0000000'):
+                return '1'
+            elif (numStr == '1.0000000'):
+                return '1'
+            else:
+                    return numStr
 
     def clearAll(self):
         self.view.entry.delete(0, END)

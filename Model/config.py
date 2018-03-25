@@ -10,9 +10,6 @@ __status__ = "Release v1.0"
 #Import utilities
 import decimal
 
-#VALUE_ERROR
-VALUE_ERROR = "Value Error"
-
 #Range variables for testing
 test_max = 10 ** 10
 test_min = -test_max

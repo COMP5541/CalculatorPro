@@ -3,14 +3,13 @@ __copyright__ = "Copyright 2018, CalculatorPro"
 __credits__ = ["Team A"]
 __license__ = "GPL"
 __version__ = "1.0"
-__maintainer__ = "Bernardo Sandi"
+__maintainer__ = "Team A"
 __email__ = "B_SANDI@encs.concordia.ca"
 __status__ = "Release v1.0"
 
-from Model import config
+from Model.config import power, myAbs
 
-def squareroot( value):
-
+def squareroot(value):
 
     if value>=0:
 
@@ -24,15 +23,15 @@ def squareroot( value):
 
 
         while True:
-            dif = config.power(squareRootVal, 2) - value
+            dif = power(squareRootVal, 2) - value
 
-            if config.myAbs(dif) <= error:
+            if myAbs(dif) <= error:
                 break
 
             squareRootVal = (squareRootVal + value / squareRootVal) / 2.0
         return squareRootVal
     else:
-        return ("Invalid Input") # pass the value to be displayed
+        return False
 
 def main():
     pass

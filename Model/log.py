@@ -26,9 +26,9 @@ def ln(x):
     if (x==1):
         return 0
     if (x==0):
-        return VALUE_ERROR
+        return False
     if (x<0):
-        return VALUE_ERROR
+        return False
     
     #Use recursion to get approximative range
     if(x<1):
