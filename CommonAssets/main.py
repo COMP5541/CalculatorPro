@@ -1,6 +1,6 @@
 from enum import Enum
 
-DESIRE_GEOMETRY="300x150"
+DESIRE_GEOMETRY="285x200"
 TITLE = "ETERNITY"
 
 class Button(Enum):

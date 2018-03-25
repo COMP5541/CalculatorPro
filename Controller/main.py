@@ -90,5 +90,27 @@ class Controller():
         else:
             return numStr
 
+
+    def clearAll(self):
+        self.view.entry.delete(0, END)
+
+    def deleteOne(self):
+        self.txt = self.view.entry.get()[:-1]
+        self.view.entry.delete(0, END)
+        self.view.entry.insert(0, self.txt)
+
+    def inputVal(self, argi):
+        self.view.entry.insert(END, argi)
+
+    def calculate(self):
+
+        try:
+            result = self.getEntry()
+            self.clearAll()
+            self.writeEntry(self.formatOutput(result))
+        except Exception:
+            self.clearAll()
+            self.view.entry.insert(0, "Error!")
+
 if __name__ == '__main__':
     Controller().run()

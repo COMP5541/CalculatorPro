@@ -12,7 +12,6 @@ from CommonAssets.main import DESIRE_GEOMETRY
 from CommonAssets.main import TITLE
 
 from tkinter import Button
-from tkinter import END
 from tkinter import Entry
 
 class CalculatorGUI:
@@ -42,40 +41,45 @@ class CalculatorGUI:
         column3=3 + offsetColumn
         column4=4 + offsetColumn
         column5=5 + offsetColumn
+        column6=6 + offsetColumn
 
-        Button(self.master, text="7", width=3, command=lambda: self.inputVal(7)).grid(row=1, column=column0)
-        Button(self.master, text="4", width=3, command=lambda: self.inputVal(4)).grid(row=2, column=column0)
-        Button(self.master, text="1", width=3, command=lambda: self.inputVal(1)).grid(row=3, column=column0)
-        Button(self.master, text="8", width=3, command=lambda: self.inputVal(8)).grid(row=1, column=column1)
-        Button(self.master, text="5", width=3, command=lambda: self.inputVal(5)).grid(row=2, column=column1)
-        Button(self.master, text="2", width=3, command=lambda: self.inputVal(2)).grid(row=3, column=column1)
-        Button(self.master, text="0", width=3, command=lambda: self.inputVal(0)).grid(row=4, column=column1)
-        Button(self.master, text="9", width=3, command=lambda: self.inputVal(9)).grid(row=1, column=column2)
-        Button(self.master, text="6", width=3, command=lambda: self.inputVal(6)).grid(row=2, column=column2)
-        Button(self.master, text="3", width=3, command=lambda: self.inputVal(3)).grid(row=3, column=column2)
+
+        Button(self.master, text="7", width=3, command=lambda: self.controller.inputVal(7)).grid(row=3, column=column0)
+        Button(self.master, text="4", width=3, command=lambda: self.controller.inputVal(4)).grid(row=4, column=column0)
+        Button(self.master, text="1", width=3, command=lambda: self.controller.inputVal(1)).grid(row=5, column=column0)
+        Button(self.master, text="8", width=3, command=lambda: self.controller.inputVal(8)).grid(row=3, column=column1)
+        Button(self.master, text="5", width=3, command=lambda: self.controller.inputVal(5)).grid(row=4, column=column1)
+        Button(self.master, text="2", width=3, command=lambda: self.controller.inputVal(2)).grid(row=5, column=column1)
+        Button(self.master, text="0", width=3, command=lambda: self.controller.inputVal(0)).grid(row=6, column=column0)
+        Button(self.master, text="9", width=3, command=lambda: self.controller.inputVal(9)).grid(row=3, column=column2)
+        Button(self.master, text="6", width=3, command=lambda: self.controller.inputVal(6)).grid(row=4, column=column2)
+        Button(self.master, text="3", width=3, command=lambda: self.controller.inputVal(3)).grid(row=5, column=column2)
 
         # Behavior Functions
-        Button(self.master, text='AC', width=3, command=lambda: self.clearAll()).grid(row=1, column=column3)
-        Button(self.master, text='C',  width=3, command=lambda: self.deleteOne()).grid(row=2, column=column3)
-        Button(self.master, text='-/+', width=3, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=4, column=column5)
+        Button(self.master, text='AC', width=3, command=lambda: self.controller.clearAll()).grid(row=1, column=column0)
+        Button(self.master, text='C',  width=3, command=lambda: self.controller.deleteOne()).grid(row=1, column=column4)
+        Button(self.master, text='-/+', width=3, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=6, column=column2)
+        Button(self.master, text='=', width=3, command=lambda: self.controller.calculate()).grid(row=6, column=column3)
+
 
         # Math Functions
-        Button(master, text="sin",   width=3, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=1, column=column5)
-        Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.epowx)).grid(row=2, column=column5)
-        Button(master, text="10^x",  width=3, command=lambda: self.controller.buttonevent(btn.exp10)).grid(row=3, column=column5)
-        Button(master, text="√",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=3, column=column3)
-        Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.ln)).grid(row=4, column=column3)
+        Button(self.master, text="+", width=3, command=lambda: self.controller.inputVal('+')).grid(row=5, column=column3)
+        Button(self.master, text="-", width=3, command=lambda: self.controller.inputVal('-')).grid(row=5, column=column4)
+        Button(self.master, text="*", width=3, command=lambda: self.controller.inputVal('*')).grid(row=4, column=column3)
+        Button(self.master, text="/", width=3, command=lambda: self.controller.inputVal('/')).grid(row=4, column=column4)
+        Button(self.master, text="(", width=3, command=lambda: self.controller.inputVal('(')).grid(row=3, column=column3)
+        Button(self.master, text=")", width=3, command=lambda: self.controller.inputVal(')')).grid(row=3, column=column4)
+        Button(self.master, text=".", width=3, command=lambda: self.controller.inputVal('.')).grid(row=6, column=column1)
 
-    def clearAll(self):
-        self.entry.delete(0, END)
 
-    def deleteOne(self):
-        self.txt = self.entry.get()[:-1]
-        self.entry.delete(0, END)
-        self.entry.insert(0, self.txt)
 
-    def inputVal(self, argi):
-        self.entry.insert(END, argi)
+        Button(master, text="sin",   width=3, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=2, column=column0)
+        Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.epowx)).grid(row=2, column=column1)
+        Button(master, text="10^x",  width=3, command=lambda: self.controller.buttonevent(btn.exp10)).grid(row=2, column=column2)
+        Button(master, text="√",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=2, column=column3)
+        Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.ln)).grid(row=2, column=column4)
+
+
 
 if __name__ == '__main__':
     pass
