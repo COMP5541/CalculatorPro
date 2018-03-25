@@ -8,7 +8,7 @@ __email__ = "a_gimene@encs.concordia.ca"
 __status__ = "Release v1.0"
 
 
-from Model.config import E, VALUE_ERROR
+from Model.config import E
 from Model.config import myAbs
 from Model.exp import exp
 
