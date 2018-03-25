@@ -31,7 +31,7 @@ def squareroot(value):
             squareRootVal = (squareRootVal + value / squareRootVal) / 2.0
         return squareRootVal
     else:
-        return False
+        return "Value Error"
 
 def main():
     pass

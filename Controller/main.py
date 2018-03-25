@@ -89,9 +89,7 @@ class Controller():
 
     def formatOutput(self,num):
 
-        if num is False: #If return value is False
-            return "Value Error"
-        elif isinstance(num,str):
+        if isinstance(num,str):
             return num
         else:
             numStr = "{0:.7f}".format(num)
@@ -134,7 +132,7 @@ class Controller():
             self.writeEntry(self.formatOutput(result))
         except Exception:
             self.clearAll()
-            self.view.entry.insert(0, "Error!")
+            self.view.entry.insert(0, "Value Error")
 
 
     def e(self):
