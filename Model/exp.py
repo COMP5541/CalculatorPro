@@ -11,6 +11,7 @@ from Model.config import E
 from Model.config import factorial
 from Model.config import myAbs
 from Model.config import power
+import math
 
 #Exponent for real numbers for basis e
 def exp(x):
@@ -28,11 +29,15 @@ def exp(x):
         return power(E, int(x))
 
     if decimals > 0:
-        sum = 1
-        for k in range(1,10):
-            sum+=power(decimals,k)*1/factorial(k)
+        sum = 1     #power series
+        n = 1       #initialize n
+        term = 1    #power series expansion term
 
-        result = 0 #initialize variable
+        while myAbs(term) > 10**(-14):
+            term = power(decimals,n)/factorial(n)
+            sum+=term
+            n+=1
+
         if x > 0:
             return power(E,int(x))*sum
         if x < 0:

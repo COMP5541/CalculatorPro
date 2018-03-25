@@ -12,7 +12,6 @@ import decimal
 
 #Variable for 10exp function
 LN_10 = 2.30258509299405
-
 # Factorial: n!
 def factorial(n):
     result = 1
