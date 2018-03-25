@@ -4,17 +4,26 @@ import math
 
 #Define test functions
 def test(x):
-    print("ETERNITY Test for " + str(x))
+    print("ETERNITY result for " + str(x))
     print(str(ln(x)))
+
+def benchmark(x):
+    print("math library result for " + str(x))
+    math.log(x)
 
 def run_test():
 
-    test(test_max)
-    test(test_min)
-    test(test_small)
-    test(0)
-    test(1)
+    input_values = [test_max,test_min,test_small,0,1]
 
-#TEST
+    for x in input_values:
+        test(x)
+
+    for x in input_values:
+        try:
+            benchmark(x)
+        except ValueError:
+            print("ValueError")
+
+# TEST
 if __name__ == "__main__":
     run_test()
