@@ -15,7 +15,7 @@ from Model.config import myAbs, power, factorial, LN_10
 def tentopowerx(x):
     #Upper Bound
     if (myAbs(x)>10):
-        return False
+        return "Out of Range"
 
     if type(x)==int:
 

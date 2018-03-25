@@ -14,7 +14,7 @@ def exp(x):
 
     #Upper Bound
     if (myAbs(x)>100):
-        return False
+        return "Out of Range"
 
     if x==0:
         return 1

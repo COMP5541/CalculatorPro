@@ -94,8 +94,10 @@ class Controller():
 
     def formatOutput(self,num):
 
-        if num == False: #If return value is False
+        if num is False: #If return value is False
             return "Value Error"
+        elif isinstance(num,str):
+            return num
         else:
             numStr = "{0:.7f}".format(num)
             numStrInt = int(num)
