@@ -8,7 +8,7 @@ __email__ = "a_gimene@encs.concordia.ca"
 __status__ = "Release v1.0"
 
 
-from Model.config import E
+from Model.config import E, VALUE_ERROR
 from Model.config import myAbs
 from Model.exp import exp
 
@@ -26,9 +26,9 @@ def ln(x):
     if (x==1):
         return 0
     if (x==0):
-        return float('-Inf')
+        return VALUE_ERROR
     if (x<0):
-        return float('nan')
+        return VALUE_ERROR
     
     #Use recursion to get approximative range
     if(x<1):
@@ -51,52 +51,5 @@ def ln(x):
             return mid
 
 
-'''
-Algorithm for computing the base-10 logarithm based on the
-Mathematical-Function Computation Handbook [Beebe]
-Written by AG and corrected after discussion in StackOverflow
-https://stackoverflow.com/questions/49353928/algorithm-for-computing-base-10-logarithm-in-python
-
-
-#Base-10 Logarithm
-def log10(x):
-    # Handle exceptional cases
-    if (x == 1):
-        return 0
-    if (x == 0):
-        return float('-Inf')
-    if (x < 0):
-        return float('nan')
-
-    n = 0 #Start exponent of base 10
-
-    #Normalize input
-    while (x >= 1.0):
-        x = x/10.0
-        n+=1
-
-    # if x <= sqrt(1/10)
-    while(x<=0.316227766016838):
-        x = x*10.0
-        n = n-1
-
-    #Produce a change of variable
-    z = (x-1.0)/(x+1.0)
-    D = 0.868588964 #2*log10(e)
-
-    #Taylor series approximation
-    sum = z
-    for k in range(3,23,2):
-        sum+=(z**k)/k #used ** instead of power() for simplicity
-
-    return D*sum+n,6
-
-
-def ln(x):
-    return (log10(x)/log10(E))
-
-'''
-
 if __name__ == "__main__":            
-    test=5 #Enter whatever input you want to test
-    print(ln(test))
+    pass

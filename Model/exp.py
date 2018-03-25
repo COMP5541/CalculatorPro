@@ -7,11 +7,7 @@ __maintainer__ = "Jasdeep Ratol"
 __email__ = " j_ratol@encs.concordia.ca"
 __status__ = "Release v1.0"
 
-from Model.config import E
-from Model.config import factorial
-from Model.config import myAbs
-from Model.config import power
-import math
+from Model.config import E, factorial, VALUE_ERROR, myAbs, power
 
 #Exponent for real numbers for basis e
 def exp(x):

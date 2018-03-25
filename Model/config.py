@@ -10,15 +10,23 @@ __status__ = "Release v1.0"
 #Import utilities
 import decimal
 
+#VALUE_ERROR
+VALUE_ERROR = "Value Error"
+
+#Range variables for testing
+test_max = 10 ** 10
+test_min = -test_max
+test_small = 10 ** (-10)
+
 #Variable for 10exp function
 LN_10 = 2.30258509299405
+
 # Factorial: n!
 def factorial(n):
     result = 1
     for i in range(2, n + 1):
         result *= i
     return result
-
 
 #Approximation of Euler's constant, E = 2.718281828459045
 def e():
