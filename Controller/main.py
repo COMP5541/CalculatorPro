@@ -80,8 +80,8 @@ class Controller():
         return result
 
     def keyPressed(self,event):
-        print(event.char)
-        if event.char not in ('0','1','2','3','4','5','6','7','8','9'):
+        #print(event.char)
+        if (event.keysym not in ('0','1','2','3','4','5','6','7','8','9','period','BackSpace')):
             return 'break'
 
     def formatOutput(self,num):
