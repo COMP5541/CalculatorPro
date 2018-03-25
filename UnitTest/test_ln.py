@@ -5,11 +5,13 @@ import math
 #Define test functions
 def test(x):
     print("ETERNITY result for " + str(x))
-    print(str(ln(x)))
+    result = ln(x)
+    print(result)
 
 def benchmark(x):
     print("math library result for " + str(x))
-    math.log(x)
+    result = math.log(x)
+    print(result)
 
 def run_test():
 
