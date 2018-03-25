@@ -12,8 +12,7 @@ from tkinter import Tk
 from tkinter import END
 from View.main import CalculatorGUI as View
 from CommonAssets.main import Button as btn
-from Model.config import E, PI
-from Model.config import degreeToRadian
+
 
 
 #Import Model
@@ -22,6 +21,8 @@ from Model.exp import exp as epowx
 from Model.log import ln
 from Model.squareroot import squareroot
 from Model.tentopowerx import tentopowerx as exp10
+from Model.config import E, PI
+from Model.config import degreeToRadian
 
 #Import utilities
 import decimal
@@ -31,7 +32,6 @@ class Controller():
     def __init__(self):
         self.root = Tk()
         self.view = View(self.root, self)
-        #self. model = Model
         self.currentvalue = 0
         self.rad = True
 
@@ -118,6 +118,7 @@ class Controller():
 
     def degtorad(self):
         self.rad = not self.rad;
+
 
     def clearAll(self):
         self.view.entry.delete(0, END)
