@@ -82,7 +82,7 @@ class CalculatorGUI:
 
         Button(master, text="sin",   width=3, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=2, column=column0)
         Button(master, text="e^(x)", width=3, command=lambda: self.controller.buttonevent(btn.epowx)).grid(row=2, column=column1)
-        Button(master, text="10^x",  width=3, command=lambda: self.controller.buttonevent(btn.exp10)).grid(row=2, column=column2)
+        Button(master, text="10x",  width=3, command=lambda: self.controller.buttonevent(btn.exp10)).grid(row=2, column=column2)
         Button(master, text="√",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=2, column=column3)
         Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.ln)).grid(row=2, column=column4)
 

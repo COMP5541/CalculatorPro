@@ -12,6 +12,8 @@ from tkinter import Tk
 from tkinter import END
 from View.main import CalculatorGUI as View
 from CommonAssets.main import Button as btn
+from Model.config import e, piconstant
+
 
 #Import Model
 from Model.sin import sin
@@ -79,7 +81,12 @@ class Controller():
 
     def formatOutput(self,num):
         numStr = "{0:.7f}".format(num)
-        if (numStr == '-0.0000000'):
+        numStrInt = int(num)
+        numStrComp = "{0:.7f}".format(numStrInt)
+
+        if(numStr==numStrComp):
+            return numStrInt
+        elif (numStr == '-0.0000000'):
             return '0'
         elif (numStr == '0.0000000'):
             return '0'
@@ -111,6 +118,14 @@ class Controller():
         except Exception:
             self.clearAll()
             self.view.entry.insert(0, "Error!")
+
+
+    def e(self):
+        return self.formatOutput(e())
+
+    def pi(self):
+        return self.formatOutput(piconstant())
+
 
 if __name__ == '__main__':
     Controller().run()
