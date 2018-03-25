@@ -29,7 +29,6 @@ class CalculatorGUI:
         self.entry = Entry(master)
         self.entry.grid(row=0, column=0, columnspan=6)
         self.entry.focus_set()
-        self.entry.insert(END, 0)
 
         #UI desing
         offsetRow=0
