@@ -60,12 +60,6 @@ class CalculatorGUI:
         Button(self.master, text="e", width=3, command=lambda: self.controller.inputVal(controller.e())).grid(row=1, column=column0)
         Button(self.master, text="π", width=3, command=lambda: self.controller.inputVal(controller.pi())).grid(row=1, column=column1)
 
-        # Behavior Functions
-        Button(self.master, text='AC', width=3, command=lambda: self.controller.clearAll()).grid(row=1, column=column3)
-        Button(self.master, text='C',  width=3, command=lambda: self.controller.deleteOne()).grid(row=1, column=column4)
-        Button(self.master, text='-/+', width=3, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=6, column=column2)
-        Button(self.master, text='=', width=3, command=lambda: self.controller.calculate()).grid(row=6, column=column3)
-        Button(self.master, text="R/D", width=3, command=lambda: self.controller.degtorad()).grid(row=1, column=column2)
 
         # Math Functions
         Button(self.master, text="+", width=3, command=lambda: self.controller.inputVal('+')).grid(row=5, column=column3)
@@ -75,6 +69,14 @@ class CalculatorGUI:
         Button(self.master, text="(", width=3, command=lambda: self.controller.inputVal('(')).grid(row=3, column=column3)
         Button(self.master, text=")", width=3, command=lambda: self.controller.inputVal(')')).grid(row=3, column=column4)
         Button(self.master, text=".", width=3, command=lambda: self.controller.inputVal('.')).grid(row=6, column=column1)
+
+
+        # Behavior Functions
+        Button(self.master, text='AC', width=3, command=lambda: self.controller.clearAll()).grid(row=1, column=column3)
+        Button(self.master, text='C',  width=3, command=lambda: self.controller.deleteOne()).grid(row=1, column=column4)
+        Button(self.master, text='-/+', width=3, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=6, column=column2)
+        Button(self.master, text='=', width=3, command=lambda: self.controller.calculate()).grid(row=6, column=column3)
+        Button(self.master, text="R/D", width=3, command=lambda: self.controller.degtorad()).grid(row=1, column=column2)
 
 
         #Elementary Functions
