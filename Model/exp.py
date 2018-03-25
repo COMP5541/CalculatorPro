@@ -12,6 +12,10 @@ from Model.config import E, factorial, myAbs, power
 #Exponent for real numbers for basis e
 def exp(x):
 
+    #Upper Bound
+    if (myAbs(x)>100):
+        return False
+
     if x==0:
         return 1
     if x ==1:
@@ -38,4 +42,3 @@ def exp(x):
             return power(E,int(x))*sum
         if x < 0:
             return 1/(power(E,myAbs(int(x)))*sum)
-

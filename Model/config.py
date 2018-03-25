@@ -69,6 +69,7 @@ def power(a,b):
             i+=1
         return 1/r
 
+
 # ToDo -- use own power function implementation
 def arctan(x):
     d = decimal.Decimal
@@ -90,3 +91,6 @@ PI = piconstant()
 #FOR SIN(X) FUNCTION
 DEGREE 			= PI/180
 OUTOFRANGE 		= 'Out of range'
+
+print(10**(1000))
+#print(power(10,10**10))

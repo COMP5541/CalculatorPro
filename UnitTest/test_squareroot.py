@@ -1,16 +1,17 @@
 from Model.config import *
-from Model.log import *
+from Model.squareroot import *
 import math
+
 
 #Define test functions
 def test(x):
     print("ETERNITY result for " + str(x))
-    result = ln(x)
+    result = squareroot(x)
     print(result)
 
 def benchmark(x):
     print("math library result for " + str(x))
-    result = math.log(x)
+    result = math.sqrt(x)
     print(result)
 
 def run_test():

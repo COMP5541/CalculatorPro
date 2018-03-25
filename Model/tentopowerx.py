@@ -13,6 +13,10 @@ from Model.config import myAbs, power, factorial, LN_10
 
 #power series of 10^x function
 def tentopowerx(x):
+    #Upper Bound
+    if (myAbs(x)>10):
+        return False
+
     if type(x)==int:
 
         if x==0:
@@ -43,3 +47,6 @@ def tentopowerx(x):
 
         else:
             return 1/(power(10,myAbs(e))*tentopower)
+
+
+print(tentopowerx(10**10))
