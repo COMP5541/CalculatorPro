@@ -24,9 +24,6 @@ from Model.tentopowerx import tentopowerx as exp10
 from Model.config import E, PI
 from Model.config import degreeToRadian
 
-#Import utilities
-import decimal
-
 class Controller():
 
     def __init__(self):
@@ -39,8 +36,6 @@ class Controller():
         self.root.mainloop()
 
     def buttonevent(self,function):
-
-        d = decimal.Decimal
 
         entry = self.getEntry()
         result = 0
