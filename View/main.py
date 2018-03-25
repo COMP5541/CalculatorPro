@@ -46,7 +46,7 @@ class CalculatorGUI:
         column5=5 + offsetColumn
         column6=6 + offsetColumn
 
-
+        #Numbers and Constants
         Button(self.master, text="7", width=3, command=lambda: self.controller.inputVal(7)).grid(row=3, column=column0)
         Button(self.master, text="4", width=3, command=lambda: self.controller.inputVal(4)).grid(row=4, column=column0)
         Button(self.master, text="1", width=3, command=lambda: self.controller.inputVal(1)).grid(row=5, column=column0)
@@ -59,14 +59,13 @@ class CalculatorGUI:
         Button(self.master, text="3", width=3, command=lambda: self.controller.inputVal(3)).grid(row=5, column=column2)
         Button(self.master, text="e", width=3, command=lambda: self.controller.inputVal(controller.e())).grid(row=1, column=column0)
         Button(self.master, text="π", width=3, command=lambda: self.controller.inputVal(controller.pi())).grid(row=1, column=column1)
-        Button(self.master, text="R/D", width=3, command=lambda: self.controller.degtorad()).grid(row=1, column=column2)
 
         # Behavior Functions
         Button(self.master, text='AC', width=3, command=lambda: self.controller.clearAll()).grid(row=1, column=column3)
         Button(self.master, text='C',  width=3, command=lambda: self.controller.deleteOne()).grid(row=1, column=column4)
         Button(self.master, text='-/+', width=3, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=6, column=column2)
         Button(self.master, text='=', width=3, command=lambda: self.controller.calculate()).grid(row=6, column=column3)
-
+        Button(self.master, text="R/D", width=3, command=lambda: self.controller.degtorad()).grid(row=1, column=column2)
 
         # Math Functions
         Button(self.master, text="+", width=3, command=lambda: self.controller.inputVal('+')).grid(row=5, column=column3)
@@ -78,13 +77,12 @@ class CalculatorGUI:
         Button(self.master, text=".", width=3, command=lambda: self.controller.inputVal('.')).grid(row=6, column=column1)
 
 
-
-        Button(master, text="sin",   width=3, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=2, column=column0)
+        #Elementary Functions
+        Button(master, text="sin(x)",   width=3, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=2, column=column0)
         Button(master, text="e^x",   width=3, command=lambda: self.controller.buttonevent(btn.epowx)).grid(row=2, column=column1)
         Button(master, text="10^x",  width=3, command=lambda: self.controller.buttonevent(btn.exp10)).grid(row=2, column=column2)
-        Button(master, text="√",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=2, column=column3)
+        Button(master, text="√x",     width=3, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=2, column=column3)
         Button(master, text="ln(x)", width=3, command=lambda: self.controller.buttonevent(btn.ln)).grid(row=2, column=column4)
-
 
 
 if __name__ == '__main__':
