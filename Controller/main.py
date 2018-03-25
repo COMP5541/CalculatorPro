@@ -12,7 +12,7 @@ from tkinter import Tk
 from tkinter import END
 from View.main import CalculatorGUI as View
 from CommonAssets.main import Button as btn
-from Model.config import e, piconstant
+from Model.config import E, PI
 
 
 #Import Model
@@ -80,10 +80,9 @@ class Controller():
         return result
 
     def formatOutput(self,num):
-        numStr = "" #Initialize String Output
 
         if num == False: #If return value is False
-            numStr = "Value Error"
+            return "Value Error"
         else:
             numStr = "{0:.7f}".format(num)
             numStrInt = int(num)
@@ -124,10 +123,10 @@ class Controller():
 
 
     def e(self):
-        return self.formatOutput(e())
+        return self.formatOutput(E)
 
     def pi(self):
-        return self.formatOutput(piconstant())
+        return self.formatOutput(PI)
 
 
 if __name__ == '__main__':

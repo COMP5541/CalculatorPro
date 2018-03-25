@@ -58,8 +58,8 @@ class CalculatorGUI:
         Button(self.master, text="9", width=3, command=lambda: self.controller.inputVal(9)).grid(row=3, column=column2)
         Button(self.master, text="6", width=3, command=lambda: self.controller.inputVal(6)).grid(row=4, column=column2)
         Button(self.master, text="3", width=3, command=lambda: self.controller.inputVal(3)).grid(row=5, column=column2)
-        Button(self.master, text="π", width=3, command=lambda: self.controller.inputVal(controller.e())).grid(row=1, column=column0)
-        Button(self.master, text="e", width=3, command=lambda: self.controller.inputVal(controller.pi())).grid(row=1, column=column1)
+        Button(self.master, text="e", width=3, command=lambda: self.controller.inputVal(controller.e())).grid(row=1, column=column0)
+        Button(self.master, text="π", width=3, command=lambda: self.controller.inputVal(controller.pi())).grid(row=1, column=column1)
         Button(self.master, text="Rad", width=3, command=lambda: self.controller.inputVal(3)).grid(row=1, column=column2)
 
         # Behavior Functions
