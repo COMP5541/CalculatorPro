@@ -18,6 +18,30 @@ test_small = 10 ** (-10)
 #Variable for 10exp function
 LN_10 = 2.30258509299405
 
+# ToDo -- use own power function implementation
+def arctan(x):
+    d = decimal.Decimal
+    with decimal.localcontext() as context:
+        context.prec += 4
+        result = d(0)
+        for n in range(0, 20, 1):
+            result = result + ((d(-1)) ** n) * (x ** (d(2) * n + d(1))) / (d(2) * n + d(1))
+    return result
+
+def piconstant():
+    d = decimal.Decimal
+    return d(4) * (d(4) * arctan(d(1 / 5)) - arctan(d(1 / 239)))
+
+
+def degreeToRadian(angle):
+    d = decimal.Decimal
+    angle = d(angle)
+    return DEGREE * angle
+
+PI = piconstant()
+DEGREE = piconstant()/180
+
+OUTOFRANGE 		= 'Out of range'
 # Factorial: n!
 def factorial(n):
     result = 1
@@ -70,27 +94,8 @@ def power(a,b):
         return 1/r
 
 
-# ToDo -- use own power function implementation
-def arctan(x):
-    d = decimal.Decimal
-    with decimal.localcontext() as context:
-        context.prec += 4
-        result = d(0)
-        for n in range(0, 20, 1):
-            result = result + ((d(-1)) ** n) * (x ** (d(2) * n + d(1))) / (d(2) * n + d(1))
-    return result
 
-def piconstant():
-    d = decimal.Decimal
-    return d(4) * (d(4) * arctan(d(1 / 5)) - arctan(d(1 / 239)))
 
 #Approximation of PI
 #PI = 3.141592653589793
-PI = piconstant()
-
 #FOR SIN(X) FUNCTION
-DEGREE 			= PI/180
-OUTOFRANGE 		= 'Out of range'
-
-print(10**(1000))
-#print(power(10,10**10))

@@ -13,6 +13,7 @@ from tkinter import END
 from View.main import CalculatorGUI as View
 from CommonAssets.main import Button as btn
 from Model.config import E, PI
+from Model.config import degreeToRadian
 
 
 #Import Model
@@ -31,6 +32,8 @@ class Controller():
         self.root = Tk()
         self.view = View(self.root, self)
         #self. model = Model
+        self.currentvalue = 0
+        self.rad = True
 
     def run(self):
         self.root.mainloop()
@@ -50,6 +53,8 @@ class Controller():
             elif (function==btn.exp10):
                 result = exp10(entry)
             elif (function==btn.sin):
+                if self.rad:
+                    entry= degreeToRadian(entry)
                 result = sin(entry)
             elif (function == btn.minusplus):
                 result = -1 * entry
@@ -83,6 +88,9 @@ class Controller():
         #print(event.char)
         if (event.keysym not in ('0','1','2','3','4','5','6','7','8','9','period','BackSpace')):
             return 'break'
+        self.currentvalue = event.keysym
+        #if ()
+        print(self.currentvalue)
 
     def formatOutput(self,num):
 
@@ -104,6 +112,10 @@ class Controller():
                 return '1'
             else:
                     return numStr
+
+
+    def degtorad(self):
+        self.rad = not self.rad;
 
     def clearAll(self):
         self.view.entry.delete(0, END)
