@@ -18,7 +18,7 @@ from Model.sin import sin
 from Model.exp import exp as epowx
 from Model.log import ln
 from Model.squareroot import squareroot
-from Model.tentopowerx import exp10
+from Model.tentopowerx import tentopowerx as exp10
 
 #Import utilities
 import decimal
