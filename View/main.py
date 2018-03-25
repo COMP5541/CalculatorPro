@@ -29,7 +29,7 @@ class CalculatorGUI:
         self.entry = Entry(master)
         self.entry.grid(row=0, column=0, columnspan=6)
         self.entry.focus_set()
-
+        self.entry.bind('<KeyPress>', self.controller.keyPressed)
         #UI desing
         offsetRow=0
         row1=1
