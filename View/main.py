@@ -10,6 +10,7 @@ __status__ = "Release v1.0"
 from CommonAssets.main import Button as btn
 from CommonAssets.main import DESIRE_GEOMETRY
 from CommonAssets.main import TITLE
+from tkinter import *
 
 
 from tkinter import Button
@@ -75,7 +76,7 @@ class CalculatorGUI:
         Button(self.master, text='AC', width=3, command=lambda: self.controller.clearAll()).grid(row=1, column=column3)
         Button(self.master, text='C',  width=3, command=lambda: self.controller.deleteOne()).grid(row=1, column=column4)
         Button(self.master, text='-/+', width=3, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=6, column=column2)
-        Button(self.master, text='=', width=3, command=lambda: self.controller.calculate()).grid(row=6, column=column3)
+        Button(self.master, text='=', width=7, command=lambda: self.controller.calculate()).grid(row=6, column=column3, columnspan=12, sticky= E)
         Button(self.master, text="R/D", width=3, command=lambda: self.controller.degtorad()).grid(row=1, column=column2)
 
 
