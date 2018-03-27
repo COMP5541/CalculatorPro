@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../COMP5541draft/.idea/COMP5541draft.iml" filepath="$PROJECT_DIR$/../COMP5541draft/.idea/COMP5541draft.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CalculatorPro.iml" filepath="$PROJECT_DIR$/.idea/CalculatorPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Test/.idea/Test.iml" filepath="$PROJECT_DIR$/../../Test/.idea/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../testing/.idea/testing.iml" filepath="$PROJECT_DIR$/../../testing/.idea/testing.iml" />
     </modules>
   </component>
 </project>

@@ -8,7 +8,7 @@ __email__ = "f_mobas@encs.concordia.ca"
 __status__ = "Release v1.0"
 
 
-import math
+
 from Model.config import myAbs, power, factorial, LN_10, VALUE_ERROR
 
 
