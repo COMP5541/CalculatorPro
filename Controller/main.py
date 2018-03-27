@@ -12,7 +12,7 @@ from tkinter import Tk
 from tkinter import END
 from View.main import CalculatorGUI as View
 from CommonAssets.main import Button as btn
-from Model.config import e, piconstant
+
 
 
 #Import Model
@@ -21,23 +21,21 @@ from Model.exp import exp as epowx
 from Model.log import ln
 from Model.squareroot import squareroot
 from Model.tentopowerx import tentopowerx as exp10
-
-#Import utilities
-import decimal
+from Model.config import E, PI
+from Model.config import degreeToRadian
 
 class Controller():
 
     def __init__(self):
         self.root = Tk()
         self.view = View(self.root, self)
-        #self. model = Model
+        self.currentvalue = 0
+        self.rad = True
 
     def run(self):
         self.root.mainloop()
 
     def buttonevent(self,function):
-
-        d = decimal.Decimal
 
         entry = self.getEntry()
         result = 0
@@ -50,6 +48,8 @@ class Controller():
             elif (function==btn.exp10):
                 result = exp10(entry)
             elif (function==btn.sin):
+                if self.rad:
+                    entry= degreeToRadian(entry)
                 result = sin(entry)
             elif (function == btn.minusplus):
                 result = -1 * entry
@@ -79,23 +79,38 @@ class Controller():
             result = False
         return result
 
-    def formatOutput(self,num):
-        numStr = "{0:.7f}".format(num)
-        numStrInt = int(num)
-        numStrComp = "{0:.7f}".format(numStrInt)
+    def keyPressed(self,event):
+        #print(event.char)
+        if (event.keysym not in ('0','1','2','3','4','5','6','7','8','9','period','BackSpace')):
+            return 'break'
+        self.currentvalue = event.keysym
+        #if ()
+        print(self.currentvalue)
 
-        if(numStr==numStrComp):
-            return numStrInt
-        elif (numStr == '-0.0000000'):
-            return '0'
-        elif (numStr == '0.0000000'):
-            return '0'
-        elif (numStr == '-1.0000000'):
-            return '1'
-        elif (numStr == '1.0000000'):
-            return '1'
+    def formatOutput(self,num):
+
+        if isinstance(num,str):
+            return num
         else:
-            return numStr
+            numStr = "{0:.7f}".format(num)
+            numStrInt = int(num)
+            numStrComp = "{0:.7f}".format(numStrInt)
+            if(numStr==numStrComp):
+                return numStrInt
+            elif (numStr == '-0.0000000'):
+                return '0'
+            elif (numStr == '0.0000000'):
+                return '0'
+            elif (numStr == '-1.0000000'):
+                return '1'
+            elif (numStr == '1.0000000'):
+                return '1'
+            else:
+                    return numStr
+
+
+    def degtorad(self):
+        self.rad = not self.rad;
 
 
     def clearAll(self):
@@ -117,14 +132,14 @@ class Controller():
             self.writeEntry(self.formatOutput(result))
         except Exception:
             self.clearAll()
-            self.view.entry.insert(0, "Error!")
+            self.view.entry.insert(0, "Value Error")
 
 
     def e(self):
-        return self.formatOutput(e())
+        return self.formatOutput(E)
 
     def pi(self):
-        return self.formatOutput(piconstant())
+        return self.formatOutput(PI)
 
 
 if __name__ == '__main__':

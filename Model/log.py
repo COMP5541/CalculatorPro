@@ -8,7 +8,7 @@ __email__ = "a_gimene@encs.concordia.ca"
 __status__ = "Release v1.0"
 
 
-from Model.config import E, VALUE_ERROR
+from Model.config import E
 from Model.config import myAbs
 from Model.exp import exp
 
@@ -26,9 +26,9 @@ def ln(x):
     if (x==1):
         return 0
     if (x==0):
-        return VALUE_ERROR
+        return "Value Error"
     if (x<0):
-        return VALUE_ERROR
+        return "Value Error"
     
     #Use recursion to get approximative range
     if(x<1):
