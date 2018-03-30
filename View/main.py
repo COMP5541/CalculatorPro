@@ -31,6 +31,8 @@ class CalculatorGUI:
         self.entry.grid(row=0, column=0, columnspan=12, sticky= W+E)
         self.entry.focus_set()
         self.entry.bind('<KeyPress>', self.controller.keyPressed)
+        self.degtoradBtnToggle=False
+
         #UI desing
         offsetRow=0
         row1=1
@@ -77,8 +79,11 @@ class CalculatorGUI:
         Button(self.master, text='C',  width=6, command=lambda: self.controller.deleteOne()).grid(row=1, column=column4)
         Button(self.master, text='-/+', width=6, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=6, column=column2)
         Button(self.master, text='=', width=13, command=lambda: self.controller.calculate()).grid(row=6, column=column3, columnspan=12, sticky= E)
-        Button(self.master, text="R/D", width=6, command=lambda: self.controller.degtorad()).grid(row=1, column=column2)
-
+        #self.degtoradBtn = Button(self.master, text="R/D", width=6, command=lambda: self.controller.degtorad()).grid(row=1, column=column2)
+        #self.degtoradBtn = Button(self.master, text="RAD", width=6, command=lambda: self.toggle()).grid(row=1, column=column2)
+        #self.w = 1
+        self.degtoradBtn = Button(self.master, text="RAD", width=6, command=lambda: self.degtoradBtntoggle())
+        self.degtoradBtn.grid(row=1, column=column2)
 
         #Elementary Functions
         Button(master, text="sin(x)",   width=6, command=lambda: self.controller.buttonevent(btn.sin)).grid(row=2, column=column0)
@@ -87,6 +92,14 @@ class CalculatorGUI:
         Button(master, text="√x",     width=6, command=lambda: self.controller.buttonevent(btn.sqr)).grid(row=2, column=column3)
         Button(master, text="ln(x)", width=6, command=lambda: self.controller.buttonevent(btn.ln)).grid(row=2, column=column4)
 
+    def degtoradBtntoggle(self):
+        currentBnt = self.degtoradBtn.config('text')[-1]
+        if currentBnt == 'RAD':
+            self.degtoradBtn.config(text='DEG')
+            self.controller.degtorad(False)
+        else:
+            self.degtoradBtn.config(text='RAD')
+            self.controller.degtorad(True)
 
 if __name__ == '__main__':
     pass

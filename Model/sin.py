@@ -8,33 +8,35 @@ __email__ = "zbigniew.angeluskrzyzanowski@mail.concordia.ca"
 __status__ = "Release v1.0"
 
 #Import utilities
-import decimal
+
 from Model.config import factorial
 from Model.config import PI as pi
 from Model.config import power
 
-#Define constants
-d = decimal.Decimal
-degree = pi / d(180)
-
-def degreeToRadian(angle):
-    angle = d(angle)
-    return degree * angle
-
-def sin(num):
-    num = d(num)
-    radian = False
-    if (radian == False):
-        num = degreeToRadian(num)
+def sin(num,type):
     isMirror = 0
     if (num < 0):
         isMirror = 1
         num = -1 * num
-    if (num > pi):
+
+    if type == True:
+        cut = pi
+    else:
+        cut = 180
+
+    negativeRange=0
+    if (num> cut):
+        quotien= num//pi
         num = num % pi
+        if quotien % 2 == 0:
+            negativeRange = 0  # Even
+        else:
+            negativeRange = 1  # Odd
     result = 0
     for n in range(0, 10, 1):
         result = result + power(-1, n) * (power(num, (2 * n + 1))) / factorial(2 * n + 1)
+    if(negativeRange ==1):
+        result = -1 * result
     if (isMirror == 1 ):
         result = -1 * result
     return result

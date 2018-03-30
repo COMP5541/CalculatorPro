@@ -22,7 +22,7 @@ from Model.log import ln
 from Model.squareroot import squareroot
 from Model.tentopowerx import tentopowerx as exp10
 from Model.config import E, PI
-from Model.config import degreeToRadian
+from Model.config import radianToDegree
 
 class Controller():
 
@@ -48,9 +48,9 @@ class Controller():
             elif (function==btn.exp10):
                 result = exp10(entry)
             elif (function==btn.sin):
-                if self.rad:
-                    entry= degreeToRadian(entry)
-                result = sin(entry)
+                if not self.rad:
+                    entry= radianToDegree(entry)
+                result = sin(entry,self.rad)
             elif (function == btn.minusplus):
                 result = -1 * entry
             elif (function==btn.epowx):
@@ -63,6 +63,10 @@ class Controller():
             result = 'Out of Range'
             self.clearEntry()
             self.writeEntry(result)
+
+    def degtorad(self, rad):
+        #self.rad = not self.rad;
+        self.rad = rad
 
     def getEntry(self):
         return eval(self.view.entry.get())
@@ -107,11 +111,6 @@ class Controller():
                 return '1'
             else:
                     return numStr
-
-
-    def degtorad(self):
-        self.rad = not self.rad;
-
 
     def clearAll(self):
         self.view.entry.delete(0, END)
