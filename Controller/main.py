@@ -13,8 +13,6 @@ from tkinter import END
 from View.main import CalculatorGUI as View
 from CommonAssets.main import Button as btn
 
-
-
 #Import Model
 from Model.sin import sin
 from Model.exp import exp as epowx

@@ -79,9 +79,6 @@ class CalculatorGUI:
         Button(self.master, text='C',  width=6, command=lambda: self.controller.deleteOne()).grid(row=1, column=column4)
         Button(self.master, text='-/+', width=6, command=lambda: self.controller.buttonevent(btn.minusplus)).grid(row=6, column=column2)
         Button(self.master, text='=', width=13, command=lambda: self.controller.calculate()).grid(row=6, column=column3, columnspan=12, sticky= E)
-        #self.degtoradBtn = Button(self.master, text="R/D", width=6, command=lambda: self.controller.degtorad()).grid(row=1, column=column2)
-        #self.degtoradBtn = Button(self.master, text="RAD", width=6, command=lambda: self.toggle()).grid(row=1, column=column2)
-        #self.w = 1
         self.degtoradBtn = Button(self.master, text="RAD", width=6, command=lambda: self.degtoradBtntoggle())
         self.degtoradBtn.grid(row=1, column=column2)
 
