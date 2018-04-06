@@ -20,7 +20,7 @@ from Model.log import ln
 from Model.squareroot import squareroot
 from Model.tentopowerx import tentopowerx as exp10
 from Model.config import E, PI
-from Model.config import radianToDegree
+from Model.config import degreeToRadian
 
 class Controller():
 
@@ -47,8 +47,8 @@ class Controller():
                 result = exp10(entry)
             elif (function==btn.sin):
                 if not self.rad:
-                    entry= radianToDegree(entry)
-                result = sin(entry,self.rad)
+                    entry= degreeToRadian(entry)
+                result = sin(entry)
             elif (function == btn.minusplus):
                 result = -1 * entry
             elif (function==btn.epowx):

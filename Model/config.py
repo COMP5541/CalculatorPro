@@ -31,7 +31,7 @@ def piconstant():
 PI = piconstant()
 
 #DEGREE FOR SIN(X)
-def radianToDegree(angle):
+def degreeToRadian(angle):
     angle = angle
     return DEGREE * angle
 
