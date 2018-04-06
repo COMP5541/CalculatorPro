@@ -30,8 +30,8 @@ def tentopowerx(x):
 
     elif type(x)==float:
 
-        e=int(x)
-        decimal=myAbs(x-e)
+        integerPart=int(x)
+        decimal=myAbs(x-integerPart)
         tentopower=0
         n=0
         Ln10=LN_10
@@ -43,7 +43,7 @@ def tentopowerx(x):
             term = (power(decimal * Ln10, n)) / (factorial(n))
 
         if x>0:
-            return power(10, e)*tentopower
+            return power(10, integerPart)*tentopower
 
         else:
-            return 1/(power(10,myAbs(e))*tentopower)
+            return 1/(power(10,myAbs(integerPart))*tentopower)
